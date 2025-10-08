@@ -213,7 +213,7 @@ export default function CPM() {
             <img 
               src="/MUTLIFLY.svg" 
               alt="Multifly" 
-              className="h-16 w-auto opacity-50"
+              className="h-10 w-auto opacity-80 relative z-10"
             />
           </div>
         </div>
