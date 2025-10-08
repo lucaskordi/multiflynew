@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multifly - Mais que uma agência</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #e7c135;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: none;
+            overflow-x: hidden;
+        }
+
+        #custom-cursor {
+            position: fixed;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: white;
+            mix-blend-mode: difference;
+            pointer-events: none;
+            z-index: 9999;
+            filter: grayscale(1);
+            border: 2px solid black;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 1536px;
+            gap: 0;
+            padding: 20px;
+        }
+
+        .content-left {
+            flex: 1;
+            text-align: left;
+        }
+
+        .logo-container {
+            position: relative;
+        }
+
+        .logo {
+            height: 48px;
+            width: auto;
+            margin-bottom: 16px;
+            opacity: 0;
+            transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transform: rotateY(270deg);
+        }
+
+        .logo.visible {
+            opacity: 1;
+            transform: rotateY(0deg);
+        }
+
+        .maisque {
+            height: 256px;
+            width: auto;
+            opacity: 0;
+            transform: translateY(32px);
+            transition: all 1s ease-out;
+            transition-delay: 0.2s;
+        }
+
+        .maisque.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .tagline {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 2.25rem;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -2px;
+            color: #1e0f18;
+            margin-top: 8px;
+            opacity: 0;
+            transform: translateY(32px);
+            transition: all 1s ease-out;
+            transition-delay: 0.4s;
+        }
+
+        .tagline.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: #1e0f18;
+            margin-top: 24px;
+            opacity: 0;
+            transform: translateY(32px);
+            transition: all 1s ease-out;
+            transition-delay: 0.6s;
+        }
+
+        .subtitle.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .instagram-container {
+            margin-top: 32px;
+            display: inline-block;
+            opacity: 0;
+            transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transition-delay: 0.8s;
+            transform: rotateY(270deg);
+        }
+
+        .instagram-container.visible {
+            opacity: 1;
+            transform: rotateY(0deg);
+        }
+
+        .instagram-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            transform-origin: center;
+        }
+
+        .instagram-link:hover {
+            transform: scale(1.1);
+        }
+
+        .instagram-icon {
+            height: 48px;
+            width: 48px;
+        }
+
+        .instagram-text {
+            margin-left: 8px;
+            font-size: 1.5rem;
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-weight: 900;
+            color: #1e0f18;
+        }
+
+        .content-right {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            margin-left: -200px;
+        }
+
+        .y-container {
+            opacity: 0;
+            transform: scale(0);
+            transition: all 1s ease-out;
+            transition-delay: 1s;
+        }
+
+        .y-container.visible {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .interactive-y {
+            height: 600px;
+            width: auto;
+            transition: transform 0.1s ease-out;
+            transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+            transform-style: preserve-3d;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .content-right {
+                margin-left: 0;
+                margin-top: 40px;
+            }
+
+            .tagline,
+            .subtitle {
+                font-size: 1.25rem;
+            }
+
+            .instagram-text {
+                font-size: 1.125rem;
+            }
+
+            .maisque {
+                height: 192px;
+            }
+
+            .interactive-y {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="custom-cursor"></div>
+
+    <div class="container">
+        <div class="content-left">
+            <div class="logo-container">
+                <img src="/LOGO.svg" alt="Logo" class="logo" id="logo">
+                <img src="/MAISQUE.svg" alt="MAIS QUE UMA AGÊNCIA" class="maisque" id="maisque">
+            </div>
+            
+            <p class="tagline" id="tagline">
+                somos uma plataforma <br>
+                de concepções disruptivas <br>
+                aplicadas ao seu evento.
+            </p>
+            
+            <p class="subtitle" id="subtitle">
+                We fly and multiply.
+            </p>
+            
+            <div class="instagram-container" id="instagram">
+                <a href="https://www.instagram.com/multifly.ag" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                    <img src="/ig.png" alt="Instagram" class="instagram-icon">
+                    <p class="instagram-text">multifly.ag</p>
+                </a>
+            </div>
+        </div>
+        
+        <div class="content-right">
+            <div class="y-container" id="yContainer">
+                <img src="/Y.svg" alt="Y" class="interactive-y" id="interactiveY">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const cursor = document.getElementById('custom-cursor');
+        const interactiveY = document.getElementById('interactiveY');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+
+        setTimeout(() => {
+            document.getElementById('logo').classList.add('visible');
+            document.getElementById('maisque').classList.add('visible');
+            document.getElementById('tagline').classList.add('visible');
+            document.getElementById('subtitle').classList.add('visible');
+            document.getElementById('instagram').classList.add('visible');
+            document.getElementById('yContainer').classList.add('visible');
+        }, 100);
+
+        let time = 0;
+        let mouseRotation = { x: 0, y: 0 };
+        
+        function animateY() {
+            time += 0.01;
+            const baseRotateY = Math.sin(time) * 15;
+            const baseRotateX = Math.cos(time * 0.7) * 10;
+            
+            const finalRotateY = baseRotateY + mouseRotation.y;
+            const finalRotateX = baseRotateX + mouseRotation.x;
+            
+            interactiveY.style.transform = `perspective(1000px) rotateX(${finalRotateX}deg) rotateY(${finalRotateY}deg)`;
+            requestAnimationFrame(animateY);
+        }
+        
+        animateY();
+
+        interactiveY.addEventListener('mousemove', (e) => {
+            const rect = interactiveY.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            const mouseX = e.clientX - centerX;
+            const mouseY = e.clientY - centerY;
+            
+            const rotateY = (mouseX / rect.width) * 30;
+            const rotateX = -(mouseY / rect.height) * 30;
+            
+            mouseRotation = { x: rotateX, y: rotateY };
+        });
+
+        interactiveY.addEventListener('mouseleave', () => {
+            mouseRotation = { x: 0, y: 0 };
+        });
+    </script>
+</body>
+</html>

@@ -31,9 +31,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#e7c135] flex items-center justify-center cursor-none">
-      <div className="flex items-center w-full max-w-6xl gap-0">
-        <div className="text-left flex-1">
+    <div className="min-h-screen bg-[#e7c135] flex items-center justify-center cursor-none px-6 pt-20 md:pt-0">
+      <div className="flex flex-col md:flex-row items-center w-full max-w-6xl gap-2 md:gap-0">
+        <div className="text-left flex-1 w-full">
         <div className="relative">
           <img 
             src="/LOGO.svg" 
@@ -49,24 +49,23 @@ export default function Home() {
           <img 
             src="/MAISQUE.svg" 
             alt="MAIS QUE UMA AGÊNCIA" 
-            className={`h-32 md:h-48 w-auto transition-all duration-1000 ease-out ${
+            className={`h-32 md:h-48 lg:h-64 w-auto transition-all duration-1000 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
             style={{ 
-              height: '16rem',
               transitionDelay: '0.2s'
             }}
           />
         </div>
         <p 
-          className={`font-montserrat text-xl md:text-4xl font-extrabold leading-none transition-all duration-1000 ease-out ${
+          className={`font-montserrat text-base md:text-2xl lg:text-4xl font-extrabold leading-tight md:leading-none transition-all duration-1000 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
           style={{
             fontFamily: 'var(--font-montserrat), Arial, sans-serif', 
-            letterSpacing: '-2px', 
+            letterSpacing: '-1px', 
             color: '#1e0f18', 
-            marginTop: '0.2rem',
+            marginTop: '0.5rem',
             transitionDelay: '0.4s'
           }}
         >
@@ -75,7 +74,7 @@ export default function Home() {
           aplicadas ao seu evento.
         </p>
         <p 
-          className={`text-xl md:text-4xl transition-all duration-1000 ease-out ${
+          className={`text-base md:text-2xl lg:text-4xl transition-all duration-1000 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
           style={{
@@ -83,14 +82,14 @@ export default function Home() {
             fontWeight: '800', 
             letterSpacing: '-1px', 
             color: '#1e0f18',
-            marginTop: '1.5rem',
+            marginTop: '1rem',
             transitionDelay: '0.6s'
           }}
         >
           We fly and multiply.
         </p>
         <div 
-          className={`mt-8 inline-block transition-all duration-1000 ${
+          className={`mt-6 md:mt-8 inline-block transition-all duration-1000 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`}
           style={{ 
@@ -109,21 +108,20 @@ export default function Home() {
                 <img 
                   src="/ig.png" 
                   alt="Instagram" 
-                  className="h-12 w-12"
+                  className="h-10 w-10 md:h-12 md:w-12"
                 />
-                <p className="ml-2 text-lg md:text-2xl" style={{fontFamily: 'var(--font-montserrat), Montserrat, Arial, sans-serif', fontWeight: '900', color: '#1e0f18'}}>
+                <p className="ml-2 text-base md:text-xl lg:text-2xl" style={{fontFamily: 'var(--font-montserrat), Montserrat, Arial, sans-serif', fontWeight: '900', color: '#1e0f18'}}>
                   multifly.ag
                 </p>
           </a>
         </div>
         </div>
-        <div className="flex-1 flex justify-end" style={{marginLeft: '-200px'}}>
+        <div className="flex-1 flex justify-center md:justify-end -mt-16 md:mt-0 md:-ml-32 lg:-ml-48">
           <div 
-            className={`transition-all duration-1000 ease-out ${
-              isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'
+            className={`transition-all duration-1000 ease-out scale-75 md:scale-100 ${
+              isVisible ? 'opacity-100 scale-75 md:scale-100' : 'opacity-0 scale-0'
             }`}
             style={{ 
-              transform: isVisible ? 'scale(1)' : 'scale(0)',
               transitionDelay: '1s'
             }}
           >
