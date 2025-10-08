@@ -73,15 +73,6 @@ export default function CPM() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white font-montserrat">
-      {/* Marca d'água PMPR */}
-      <div className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center overflow-hidden">
-        <img 
-          src="/PMPR.svg" 
-          alt="PMPR" 
-          className="w-full h-full object-contain opacity-5 blur-sm scale-150"
-        />
-      </div>
-      
       {/* Header */}
       <header className="sticky top-0 z-50">
         <div className="px-8 py-6 bg-slate-900/40 backdrop-blur-lg">
