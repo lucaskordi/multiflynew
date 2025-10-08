@@ -1175,7 +1175,7 @@ export default function SantaMaria() {
               <img
                 src={dressCodeImages[currentImageIndex]}
                 alt={`Referência ${currentImageIndex + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover md:object-contain"
               />
 
               {/* Botão Anterior */}
