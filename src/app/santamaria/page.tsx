@@ -1153,17 +1153,17 @@ export default function SantaMaria() {
       {/* Modal de Carrossel */}
       {showDressCodeModal && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-md p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-md p-2 md:p-4"
           onClick={() => setShowDressCodeModal(false)}
         >
           <div 
-            className="relative max-w-5xl w-full"
+            className="relative w-full h-full md:max-w-5xl md:h-auto flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Botão Fechar */}
             <button
               onClick={() => setShowDressCodeModal(false)}
-              className="absolute -top-12 right-0 z-10 w-10 h-10 bg-slate-800/40 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-red-500/80 transition-all border border-slate-600/50"
+              className="absolute top-4 right-4 md:-top-12 md:right-0 z-10 w-12 h-12 md:w-10 md:h-10 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-red-500/80 transition-all border border-slate-600/50"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -1171,19 +1171,19 @@ export default function SantaMaria() {
         </button>
 
             {/* Carrossel */}
-            <div className="relative aspect-video bg-slate-800/20 backdrop-blur-xl rounded-2xl border border-slate-600/30 shadow-2xl overflow-hidden">
+            <div className="relative w-full h-full md:aspect-video bg-slate-800/20 backdrop-blur-xl md:rounded-2xl border-0 md:border border-slate-600/30 shadow-2xl overflow-hidden flex items-center justify-center">
               <img
                 src={dressCodeImages[currentImageIndex]}
                 alt={`Referência ${currentImageIndex + 1}`}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
 
               {/* Botão Anterior */}
           <button
                 onClick={prevImage}
-                className="absolute left-4 top-1/2 -translate-y-1/2 w-14 h-14 bg-slate-800/40 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110"
+                className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-14 md:h-14 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110 active:scale-95"
               >
-                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
           </button>
@@ -1191,23 +1191,23 @@ export default function SantaMaria() {
               {/* Botão Próximo */}
           <button
                 onClick={nextImage}
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-14 h-14 bg-slate-800/40 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110"
+                className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-14 md:h-14 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110 active:scale-95"
               >
-                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
           </button>
 
               {/* Indicadores */}
-              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 bg-slate-800/40 backdrop-blur-lg px-4 py-2 rounded-full border border-slate-600/50">
+              <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-2 bg-slate-800/80 backdrop-blur-lg px-4 py-2 md:py-3 rounded-full border border-slate-600/50">
                 {dressCodeImages.map((_, index) => (
           <button
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
-                    className={`h-2 rounded-full transition-all ${
+                    className={`h-2 md:h-2.5 rounded-full transition-all ${
                       index === currentImageIndex
-                        ? 'bg-yellow-400 w-8'
-                        : 'bg-slate-500 w-2 hover:bg-slate-400'
+                        ? 'bg-yellow-400 w-8 md:w-10'
+                        : 'bg-slate-500 w-2 md:w-2.5 hover:bg-slate-400 active:bg-slate-300'
                     }`}
                   />
                 ))}
