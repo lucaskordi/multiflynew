@@ -4,31 +4,10 @@ import { useState, useEffect } from 'react';
 
 export default function Paranaense() {
   const [activeTab, setActiveTab] = useState('events');
-  const [showDressCodeModal, setShowDressCodeModal] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set());
-
-  const dressCodeImages = [
-    '/DC01.jpg',
-    '/DC02.jpg',
-    '/DC03.jpg',
-    '/DC04.jpg',
-    '/DC05.jpg',
-    '/DC06.jpg',
-    '/DC07.jpg',
-    '/DC08.jpg'
-  ];
-
-  const nextImage = () => {
-    setCurrentImageIndex((prev) => (prev + 1) % dressCodeImages.length);
-  };
-
-  const prevImage = () => {
-    setCurrentImageIndex((prev) => (prev - 1 + dressCodeImages.length) % dressCodeImages.length);
-  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -346,7 +325,7 @@ export default function Paranaense() {
                         <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
                         </svg>
-                        <p><span className="font-semibold text-yellow-400">Convites:</span> 6 convites por formando</p>
+                        <p><span className="font-semibold text-yellow-400">Convites:</span> 7 convites por formando</p>
               </div>
             </div>
           </div>
@@ -747,18 +726,6 @@ export default function Paranaense() {
           </div>
           </div>
 
-          {/* Botão Ver Referências - Abaixo dos cards */}
-          <div className="mt-8 flex justify-center">
-            <button
-              onClick={() => setShowDressCodeModal(true)}
-              className="bg-slate-800/40 backdrop-blur-lg border border-slate-600/50 text-white py-3 px-8 rounded-full font-medium transition-all duration-300 transform origin-center hover:bg-yellow-400 hover:text-slate-900 hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/25 flex items-center justify-center gap-2"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              Ver Referências de Vestimenta
-            </button>
-        </div>
         </div>
 
           {/* Informações Detalhadas */}
@@ -1221,73 +1188,6 @@ export default function Paranaense() {
           </div>
         </div>
       </section>
-      )}
-
-      {/* Modal de Carrossel */}
-      {showDressCodeModal && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-md p-2 md:p-4"
-          onClick={() => setShowDressCodeModal(false)}
-        >
-          <div 
-            className="relative w-full h-full md:max-w-5xl md:h-auto flex flex-col"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Botão Fechar */}
-            <button
-              onClick={() => setShowDressCodeModal(false)}
-              className="absolute top-4 right-4 md:-top-12 md:right-0 z-10 w-12 h-12 md:w-10 md:h-10 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-red-500/80 transition-all border border-slate-600/50"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-        </button>
-
-            {/* Carrossel */}
-            <div className="relative w-full h-full md:aspect-video bg-slate-800/20 backdrop-blur-xl md:rounded-2xl border-0 md:border border-slate-600/30 shadow-2xl overflow-hidden flex items-center justify-center">
-              <img
-                src={dressCodeImages[currentImageIndex]}
-                alt={`Referência ${currentImageIndex + 1}`}
-                className="w-full h-full object-cover md:object-contain"
-              />
-
-              {/* Botão Anterior */}
-          <button
-                onClick={prevImage}
-                className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-14 md:h-14 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110 active:scale-95"
-              >
-                <svg className="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-          </button>
-
-              {/* Botão Próximo */}
-          <button
-                onClick={nextImage}
-                className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-12 h-12 md:w-14 md:h-14 bg-slate-800/80 backdrop-blur-lg rounded-full flex items-center justify-center text-white hover:bg-yellow-400/80 hover:text-slate-900 transition-all border border-slate-600/50 hover:scale-110 active:scale-95"
-              >
-                <svg className="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-          </button>
-
-              {/* Indicadores */}
-              <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-2 bg-slate-800/80 backdrop-blur-lg px-4 py-2 md:py-3 rounded-full border border-slate-600/50">
-                {dressCodeImages.map((_, index) => (
-          <button
-                    key={index}
-                    onClick={() => setCurrentImageIndex(index)}
-                    className={`h-2 md:h-2.5 rounded-full transition-all ${
-                      index === currentImageIndex
-                        ? 'bg-yellow-400 w-8 md:w-10'
-                        : 'bg-slate-500 w-2 md:w-2.5 hover:bg-slate-400 active:bg-slate-300'
-                    }`}
-                  />
-                ))}
-        </div>
-            </div>
-          </div>
-        </div>
       )}
 
       {/* Seção FAQ */}
@@ -2190,7 +2090,7 @@ export default function Paranaense() {
                   onClick={() => setOpenFaq(openFaq === 26 ? null : 26)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Posso trocar meu plano ou alterar convidados?</span>
+                  <span className="font-semibold text-lg">Qual o horário de abertura do fumódromo?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 26 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -2204,7 +2104,7 @@ export default function Paranaense() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        Sim, é possível ampliar seu plano até o limite de <span className="font-semibold text-white">10 pessoas por mesa</span>, de acordo com as opções disponíveis, até o dia <span className="font-semibold text-white">26 de setembro</span>. No entanto, não é permitido adicionar apenas um lugar avulso. Qualquer alteração deve respeitar a estrutura dos pacotes oferecidos (4, 6, 8 ou 10 lugares).
+                        A partir das <span className="font-semibold text-white">23h00</span>. Fumantes receberão uma pulseira para acesso ao espaço. Por conta do fluxo da portaria, não há a possibilidade de abertura antecipada.
                       </p>
           </div>
             </div>
