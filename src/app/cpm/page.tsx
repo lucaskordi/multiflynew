@@ -1277,7 +1277,7 @@ export default function CPM() {
               </div>
                       <div>
                         <h4 className="font-bold text-blue-400 mb-2">Formandos:</h4>
-                        <p className="text-slate-300 text-sm">Smoking ou Terno com gravata borboleta azul</p>
+                        <p className="text-slate-300 text-sm">Smoking ou Terno</p>
             </div>
                       <div>
                         <h4 className="font-bold text-slate-400 mb-2">Pais e Convidados:</h4>
