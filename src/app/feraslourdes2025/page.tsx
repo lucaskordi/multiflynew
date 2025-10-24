@@ -181,7 +181,7 @@ export default function FerasLourdes2025() {
       </nav>
 
       {/* Hero Section */}
-      <section className="text-center py-16 px-6">
+      <section className="text-center py-12 px-6">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           Formatura Terceirão
         </h1>
@@ -219,7 +219,7 @@ export default function FerasLourdes2025() {
 
       {/* Seção de Eventos */}
       {activeTab === 'events' && (
-      <section id="eventos" className={`py-20 px-6 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('eventos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`}>
+      <section id="eventos" className={`py-12 px-6 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('eventos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`}>
           <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Evento da Formatura</h2>
             <div className="flex justify-center">
@@ -283,8 +283,8 @@ export default function FerasLourdes2025() {
             </div>
 
           {/* Código de Vestimenta */}
-          <div id="vestimenta" className={`w-full mt-24 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('vestimenta') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="vestimenta" className={`w-full mt-12 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('vestimenta') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
             <h2 className="text-3xl font-bold text-center mb-12">Código de Vestimenta</h2>
             
             <div className="flex justify-center">
@@ -365,8 +365,8 @@ export default function FerasLourdes2025() {
         </div>
 
           {/* Seção Locação de Trajes */}
-          <div id="locacao" className={`w-full mt-24 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('locacao') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="locacao" className={`w-full mt-12 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('locacao') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
               <h2 className="text-3xl font-bold text-center mb-12">Locação de Trajes</h2>
               
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-8 border border-slate-700/50 shadow-xl">
@@ -539,8 +539,8 @@ export default function FerasLourdes2025() {
           </div>
 
           {/* Informações Detalhadas */}
-          <div id="informacoes" className={`w-full mt-24 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('informacoes') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="informacoes" className={`w-full mt-12 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('informacoes') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
             <h2 className="text-3xl font-bold text-center mb-12">Informações Importantes</h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -753,8 +753,8 @@ export default function FerasLourdes2025() {
           </div>
 
           {/* Serviços e Facilidades */}
-          <div id="servicos" className={`w-full mt-24 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('servicos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.2) 0%, rgba(30, 58, 138, 0.08) 15%, rgba(30, 58, 138, 0.03) 25%, rgba(30, 58, 138, 0.01) 35%, transparent 45%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="servicos" className={`w-full mt-12 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('servicos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.2) 0%, rgba(30, 58, 138, 0.08) 15%, rgba(30, 58, 138, 0.03) 25%, rgba(30, 58, 138, 0.01) 35%, transparent 45%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
             <h2 className="text-3xl font-bold text-center mb-12">Serviços e Facilidades</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -811,8 +811,8 @@ export default function FerasLourdes2025() {
           </div>
 
           {/* Informações Adicionais */}
-          <div id="info-adicionais" className={`w-full mt-24 transition-all duration-1000 ${visibleSections.has('info-adicionais') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.2) 0%, rgba(30, 58, 138, 0.08) 15%, rgba(30, 58, 138, 0.03) 25%, rgba(30, 58, 138, 0.01) 35%, transparent 45%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="info-adicionais" className={`w-full mt-12 transition-all duration-1000 ${visibleSections.has('info-adicionais') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.2) 0%, rgba(30, 58, 138, 0.08) 15%, rgba(30, 58, 138, 0.03) 25%, rgba(30, 58, 138, 0.01) 35%, transparent 45%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
             <h2 className="text-3xl font-bold text-center mb-12">Informações Adicionais</h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -851,8 +851,8 @@ export default function FerasLourdes2025() {
           </div>
 
           {/* Avisos Importantes */}
-          <div id="avisos" className={`w-full mt-24 transition-all duration-1000 ${visibleSections.has('avisos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
+          <div id="avisos" className={`w-full mt-12 transition-all duration-1000 ${visibleSections.has('avisos') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
+            <div className="max-w-6xl mx-auto pt-12 pb-12">
             <h2 className="text-3xl font-bold text-center mb-12">Avisos Importantes</h2>
             
             <div className="space-y-6">
@@ -918,7 +918,7 @@ export default function FerasLourdes2025() {
           </div>
 
           {/* Seção de Contato */}
-          <div id="contato" className={`w-full mt-24 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('contato') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
+          <div id="contato" className={`w-full mt-12 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('contato') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.25) 0%, rgba(30, 58, 138, 0.12) 20%, rgba(30, 58, 138, 0.05) 35%, rgba(30, 58, 138, 0.01) 45%, transparent 55%)' }}>
             <div className="max-w-6xl mx-auto pt-20 pb-24">
             <h2 className="text-3xl font-bold text-center mb-12">Entre em Contato</h2>
             
@@ -1004,7 +1004,7 @@ export default function FerasLourdes2025() {
 
       {/* Seção FAQ */}
       {activeTab === 'faq' && (
-      <section id="faq" className={`py-16 px-6 scroll-mt-24 transition-all duration-1000 ${visibleSections.has('faq') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`}>
+      <section id="faq" className={`py-12 px-6 scroll-mt-12 transition-all duration-1000 ${visibleSections.has('faq') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`}>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Perguntas frequentes</h2>
             <div className="space-y-4">
@@ -2290,7 +2290,7 @@ export default function FerasLourdes2025() {
       </button>
 
       {/* Rodapé */}
-      <footer className="w-full bg-slate-900/40 backdrop-blur-lg border-t border-slate-700/50 mt-24">
+      <footer className="w-full bg-slate-900/40 backdrop-blur-lg border-t border-slate-700/50 mt-12">
         <div className="max-w-7xl mx-auto px-8 py-12">
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             
