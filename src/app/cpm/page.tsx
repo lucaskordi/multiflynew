@@ -514,7 +514,7 @@ export default function CPM() {
 
             <div>
                     <h4 className="font-semibold text-yellow-400 mb-2">Estúdios fotográficos:</h4>
-                    <p className="text-slate-300 text-sm">Funcionamento das 20h00 às 01h00. Famílias devem se dirigir aos locais designados.</p>
+                    <p className="text-slate-300 text-sm">Funcionamento das 20h00 à 01h00. Famílias devem se dirigir aos locais designados.</p>
             </div>
                   
             <div>
@@ -1407,19 +1407,19 @@ export default function CPM() {
                       <ul className="space-y-2 text-sm text-slate-300">
                         <li className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Mesa de Antepastos</span>
+                          <span>Mesa de Antepastos (20h00 - 00h00)</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Ilhas Gastronômicas</span>
+                          <span>Ilhas Gastronômicas (20h00 - 3h00)</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Lanche da Madrugada</span>
+                          <span>Lanche da Madrugada (01h00 – 03h00)</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Sobremesas</span>
+                          <span>Sobremesas (A Partir das 23h00)</span>
                         </li>
                       </ul>
                       <p className="text-slate-400 text-sm leading-relaxed">
