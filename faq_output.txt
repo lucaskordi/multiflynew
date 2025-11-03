@@ -1,0 +1,4 @@
+  File "/Users/lucaskordi/gitstuff/multiflynew/generate_faq.py", line 239
+    (/* FAQ {faq_id} */)
+     ^
+SyntaxError: f-string: invalid syntax

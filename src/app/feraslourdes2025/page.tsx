@@ -268,7 +268,7 @@ export default function FerasLourdes2025() {
                     <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
-                    <p><span className="font-semibold text-yellow-400">Mesas:</span> Mesas de 4, 6, 8 ou 10 lugares</p>
+                    <p><span className="font-semibold text-yellow-400">Mesas:</span> Mesas de 4, 6 ou 8 lugares</p>
           </div>
               <div className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -303,29 +303,14 @@ export default function FerasLourdes2025() {
                 </div>
 
                 <div className="space-y-6">
-                  {/* Formandas */}
+                  {/* Formandos e Formandas */}
                   <div>
                     <h4 className="font-bold text-lg text-yellow-400 mb-3 flex items-center gap-2">
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 320 512">
-                        <path d="M160 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM88 384H70.2c-10.9 0-18.6-10.7-15.2-21.1L93.3 248.1 59.4 304.5c-9.1 15.1-28.2 20-43.3 10.9s-20-28.2-10.9-43.3l53.6-89.2c20.3-33.7 56.7-54.3 96-54.3h11.6c39.3 0 75.7 20.6 96 54.3l53.6 89.2c9.1 15.1 4.2 34.8-10.9 43.3s-34.8 4.2-43.3-10.9l-33.9-56.3L265 362.9c3.5 10.4-4.3 21.1-15.2 21.1H232v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384H152v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z"/>
-                      </svg>
-                      Formandas
+                      <img src="/cap.svg" alt="Cap" className="w-5 h-5" />
+                      Formandos e Formandas
                     </h4>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      <span className="font-semibold text-white">Vestido Social Longo</span>
-          </p>
-        </div>
-
-                  {/* Formandos */}
-                  <div>
-                    <h4 className="font-bold text-lg text-blue-400 mb-3 flex items-center gap-2">
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 320 512">
-                        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.2 20-43.3 10.9s-20-28.2-10.9-43.3l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.3s-34.8 4.2-43.3-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z"/>
-                      </svg>
-                      Formandos
-                    </h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      <span className="font-semibold text-white">Smoking (gravata preta)</span>
+                      <span className="font-semibold text-white">Vestido Social Longo ou Smoking (Gravata Preta)</span>
                     </p>
               </div>
 
@@ -501,7 +486,7 @@ export default function FerasLourdes2025() {
                         </svg>
                         Contato:
                       </h4>
-                      <div className="space-y-3">
+                      <div className="space-y-3 mb-4">
                         <div className="flex items-center gap-3">
                           <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -516,21 +501,19 @@ export default function FerasLourdes2025() {
                           <p className="text-slate-300">(41) 99816-0008</p>
                         </div>
                       </div>
-                    </div>
-                    
-                    {/* Botão WhatsApp */}
-                    <div className="flex justify-center pt-4">
-                      <a 
-                        href="https://wa.me/5541998160008?text=Olá! Fui indicado pela Multifly para locação de trajes."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/25 flex items-center gap-3"
-                      >
-                        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297a11.162 11.162 0 00-8.413-3.3c-6.627 0-12.01 5.383-12.01 12.01 0 2.15.56 4.16 1.55 5.91l-1.58 5.76 5.91-1.55a11.92 11.92 0 005.91 1.55c6.627 0 12.01-5.383 12.01-12.01 0-3.18-1.24-6.17-3.5-8.42"/>
-                        </svg>
-                        Fale com a London
-                      </a>
+                      <div className="flex justify-center pt-2">
+                        <a 
+                          href="https://wa.me/5541998160008?text=Olá! Fui indicado pela Multifly para locação de trajes."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-green-600 hover:bg-green-700 text-white font-semibold text-sm py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/25 flex items-center justify-center gap-2"
+                        >
+                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297a11.162 11.162 0 00-8.413-3.3c-6.627 0-12.01 5.383-12.01 12.01 0 2.15.56 4.16 1.55 5.91l-1.58 5.76 5.91-1.55a11.92 11.92 0 005.91 1.55c6.627 0 12.01-5.383 12.01-12.01 0-3.18-1.24-6.17-3.5-8.42"/>
+                          </svg>
+                          Fale com a London
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -561,7 +544,7 @@ export default function FerasLourdes2025() {
                   
                   <div>
                     <h4 className="font-semibold text-blue-400 mb-2">3 a 7 anos:</h4>
-                    <p className="text-slate-300 text-sm mb-2">Precisam de convite, terão cadeira e são contabilizadas como convidados. Reembolso de R$60,00 via PIX em até 15 dias úteis após o evento.</p>
+                    <p className="text-slate-300 text-sm mb-2">Precisam de convite, terão cadeira e são contabilizadas como convidados.</p>
           </div>
                   
                   <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30">
@@ -628,13 +611,22 @@ export default function FerasLourdes2025() {
           </p>
         </div>
                   
+                  <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30">
+                    <p className="text-yellow-400 text-sm flex items-start gap-2">
+                      <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span>É importante que todas as garrafas sejam levadas ao evento de uma só vez. Após essa entrada, não será possível trazer novas garrafas, mesmo que o limite de 3 ainda não tenha sido alcançado.</span>
+          </p>
+        </div>
+                  
                   <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
                     <p className="text-red-400 text-sm flex items-start gap-2">
                       <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
                         <circle cx="12" cy="12" r="9" strokeWidth={2} />
                       </svg>
-                      <span>Proibido consumo de álcool para menores de 18 anos. Maiores assinarão termo de responsabilidade.</span>
+                      <span>Proibido consumo de álcool para menores de 18 anos. Maiores serão identificados pelo buffet com pulseira e assinarão um termo de responsabilidade.</span>
           </p>
         </div>
             </div>
@@ -655,12 +647,12 @@ export default function FerasLourdes2025() {
         <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-yellow-400 mb-2">Empresa responsável:</h4>
-                    <p className="text-slate-300 text-sm">Studio Myt, empresa parceira da Multifly, com equipe de fotógrafos e cinegrafistas</p>
+                    <p className="text-slate-300 text-sm">Studio Myt, empresa parceira da Multifly, com equipe de fotógrafos.</p>
           </div>
 
                   <div>
                     <h4 className="font-semibold text-yellow-400 mb-2">Incluído no pacote:</h4>
-                    <p className="text-slate-300 text-sm">Link individual e exclusivo com as fotos disponibilizado em até 60 dias úteis após o evento</p>
+                    <p className="text-slate-300 text-sm">Link individual e exclusivo com as fotos disponibilizado em até 120 dias úteis após o evento.</p>
           </div>
 
             <div>
@@ -792,7 +784,7 @@ export default function FerasLourdes2025() {
                     <img src="/alimentacao.svg" alt="Alimentação" className="w-full h-full" />
                   </div>
                   <h3 className="text-xl font-bold mb-3">Alimentação</h3>
-                  <p className="text-slate-300 text-sm">100% Open Food até 4h com antepastos, ilhas gastronômicas e sobremesas</p>
+                  <p className="text-slate-300 text-sm">100% Open Food até 4h com Mesa de Antepastos, Ilhas Gastronômicas e de Sobremesas conforme cronograma de alimentação do evento</p>
                 </div>
               </div>
 
@@ -827,7 +819,7 @@ export default function FerasLourdes2025() {
                   <h3 className="text-xl font-bold">Valsa</h3>
                 </div>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Aproximadamente às <span className="font-semibold text-white">00h00</span>. Formandos escolhem uma pessoa para dançar. Música única definida pela comissão de formatura.
+                  Aproximadamente às <span className="font-semibold text-white">00h00</span>. Formandos escolhem uma pessoa para dançar. Música única definida pela Comissão de Formatura.
                 </p>
               </div>
 
@@ -842,7 +834,7 @@ export default function FerasLourdes2025() {
                   <h3 className="text-xl font-bold">Cronograma</h3>
                 </div>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  O cronograma oficial do evento será disponibilizado <span className="font-semibold text-white">30 dias antes do evento</span>, após análise com a comissão de formatura.
+                  O cronograma oficial do evento será disponibilizado <span className="font-semibold text-white">na semana do evento</span>, após análise com a Comissão de Formatura.
             </p>
           </div>
 
@@ -905,11 +897,45 @@ export default function FerasLourdes2025() {
                       </svg>
                     </div>
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <h3 className="text-xl font-bold text-blue-400 mb-3">Entrega de Convites</h3>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      Todos os ingressos serão <span className="font-semibold text-white">entregues antecipadamente</span>, conforme o calendário a ser divulgado, não havendo nenhuma forma de retirá-los no momento do baile. É <span className="font-semibold text-white">imprescindível a apresentação do convite</span> para entrada em ambos os eventos.
-            </p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div>
+                        <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                          A entrega dos Ingressos será realizada de modo presencial, na sede da Multifly, durante os dias: <span className="font-semibold text-white">05/11 a 15/11</span>.
+                        </p>
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <p className="text-slate-300 text-sm">Acyr Santos, 92 - Vila Izabel - Curitiba</p>
+                          </div>
+                          <div className="flex items-start gap-3">
+                            <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <div className="text-slate-300 text-sm">
+                              <p>Segunda à Sexta das 1h às 18h</p>
+                              <p>Sábados: 09h às 11h</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="w-full">
+                        <iframe
+                          src="https://www.google.com/maps?q=Acyr+Santos+92,+Vila+Izabel,+Curitiba&output=embed"
+                          width="100%"
+                          height="200"
+                          style={{ border: 0, borderRadius: '8px' }}
+                          allowFullScreen={true}
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
+                          className="rounded-lg"
+                        />
+                      </div>
+                    </div>
           </div>
         </div>
               </div>
@@ -929,7 +955,7 @@ export default function FerasLourdes2025() {
                   <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center p-2">
                     <img src="/Y.svg" alt="Multifly" className="w-full h-full" />
                   </div>
-                  <h3 className="text-2xl font-bold">Multifly Eventos</h3>
+                  <h3 className="text-2xl font-bold">Multifly</h3>
                 </div>
                 
         <div className="space-y-4">
@@ -949,21 +975,18 @@ export default function FerasLourdes2025() {
                   
                   <div className="bg-yellow-400/10 backdrop-blur-md rounded-lg p-4 border border-yellow-400/30 mt-6">
                     <h4 className="font-bold text-yellow-400 mb-3">Atendimento Personalizado</h4>
-                    <p className="text-white font-semibold mb-3">Amanda - Diretora de Atendimento</p>
+                    <p className="text-white font-semibold mb-3">SAC Multifly</p>
                     <div className="flex items-center justify-between gap-3 mb-3">
                       <div className="flex items-center gap-2">
                         <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                         </svg>
-                        <p className="text-slate-300 font-semibold">(41) 99866-8055</p>
+                        <p className="text-slate-300 font-semibold">(41) 99539-9895</p>
             </div>
-                      <a href="https://wa.me/5541998668055" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
+                      <a href="https://wa.me/5541995399895" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
                         Clique para entrar em contato
                       </a>
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
-                      Vasta experiência em formaturas para acompanhar qualquer etapa da jornada
-            </p>
           </div>
         </div>
         </div>
@@ -971,13 +994,10 @@ export default function FerasLourdes2025() {
               {/* Card 2: Fotografia */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
+                  <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center p-2">
+                    <img src="/Logo Myt.svg" alt="Studio MYT" className="w-full h-full" />
                   </div>
-                  <h3 className="text-2xl font-bold">Fotografia - Produtos Adicionais</h3>
+                  <h3 className="text-2xl font-bold">Studio MYT</h3>
                 </div>
                 
         <div className="space-y-4">
@@ -988,10 +1008,35 @@ export default function FerasLourdes2025() {
                     <p className="text-slate-300">(41) 99901-0937</p>
                   </a>
                   
+                  <a href="mailto:atendimento@studiomyt.com.br" className="flex items-center gap-3 hover:text-yellow-400 transition-colors">
+                    <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <p className="text-slate-300">atendimento@studiomyt.com.br</p>
+                  </a>
+                  
                   <div className="bg-blue-900/20 backdrop-blur-md rounded-lg p-4 border border-blue-500/30 mt-6">
                     <p className="text-slate-300 text-sm leading-relaxed">
                       Para álbuns e outros produtos fotográficos disponíveis no Family Day
                     </p>
+                    <p className="text-slate-400 text-xs mt-2 italic">
+                      Entre em contato para mais informações sobre produtos e serviços fotográficos.
+                    </p>
+                  </div>
+
+                  <div className="bg-yellow-400/10 backdrop-blur-md rounded-lg p-4 border border-yellow-400/30 mt-6">
+                    <h4 className="font-bold text-yellow-400 mb-3">Atendimento Studio MYT</h4>
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                        <p className="text-slate-300 font-semibold">(41) 99901-0937</p>
+                      </div>
+                      <a href="https://wa.me/5541999010937" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
+                        Clique para entrar em contato
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1023,34 +1068,99 @@ export default function FerasLourdes2025() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-          </button>
+                </button>
                 {openFaq === 1 && (
                   <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <h4 className="font-bold text-yellow-400 mb-3 flex items-center gap-2">
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                        </svg>
-                        Baile de Formatura Feras Bom Jesus Lourdes 2025
-                      </h4>
-                      <div className="space-y-2 text-sm text-slate-300">
-                        <p><span className="font-semibold text-white">Baile de Formatura:</span> 05/12/2025 - Sexta-feira - 19h30 às 05h00</p>
-                        <p><span className="font-semibold text-white">Local do Evento:</span> Espaço Torres Paraná Clube</p>
-                        <p className="text-slate-400">Avenida Presidente Kennedy, 2377 - Guaíra - Curitiba</p>
-                        <p className="text-slate-300 mt-2">A abertura oficial do evento está programada para às 19h30.</p>
-              </div>
-            </div>
-            </div>
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        <span className="font-semibold text-white">Baile de Formatura:</span> 05/12/2025 – Sexta-feira – 19h30 às 05h00
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        <span className="font-semibold text-white">Local do Evento:</span> Espaço Torres Paraná Clube – Avenida Presidente Kennedy, 2377 – Guaíra – Curitiba.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        A abertura oficial do evento está programada para às 19h30.
+                      </p>
+                    </div>
+                  </div>
                 )}
-          </div>
+              </div>
 
               {/* FAQ 2 */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === 2 ? null : 2)}
+                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
+                >
+                  <span className="font-semibold text-lg">Consigo separar meu plano em duas mesas?</span>
+                  <svg 
+                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 2 ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {openFaq === 2 && (
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não será possível.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === 3 ? null : 3)}
+                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
+                >
+                  <span className="font-semibold text-lg">Qual a política para crianças?</span>
+                  <svg 
+                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 3 ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {openFaq === 3 && (
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        A política para crianças é a seguinte:
+                      </p>
+                      <div>
+                        <p className="text-slate-300 text-sm leading-relaxed mb-2">
+                          <span className="text-yellow-400">●</span> Crianças de 0 a 2 anos: não é necessário convite, mas elas não terão cadeira.
+                        </p>
+                        <p className="text-slate-300 text-sm leading-relaxed">
+                          <span className="text-yellow-400">●</span> Crianças de 03 a 07 anos: precisam de convite, terão uma cadeira e serão contabilizadas como convidados no pacote de adesão.
+                        </p>
+                      </div>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        É importante observar que os convites para menores de 07 anos não podem ser usados por maiores de 07 anos e será feita uma conferência na entrada do evento. Todos os ingressos serão entregues antecipadamente, conforme o calendário a ser divulgado, não havendo nenhuma forma de retirá-los no momento do baile.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        No momento da retirada, é necessário informar que o convite é destinado a uma criança. Caso essa informação não seja repassada, o sistema considerará automaticamente como um convite adulto. Pedimos atenção, pois não será possível realizar reembolso ou troca posteriormente.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 4 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
                 <button 
                   onClick={() => setOpenFaq(openFaq === 4 ? null : 4)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Consigo separar meu plano em duas mesas?</span>
+                  <span className="font-semibold text-lg">Quem precisa apresentar convite?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 4 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1064,9 +1174,9 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não será possível.</span>
+                        Formandos e Convidados (Todos): Imprescindível a apresentação do convite. Em caso de perda ou esquecimento do ingresso, não será permitida a entrada no evento.
                       </p>
-          </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -1077,7 +1187,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 5 ? null : 5)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Haverá segurança durante o evento?</span>
+                  <span className="font-semibold text-lg">É permitido entrar e sair durante o evento?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 5 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1088,18 +1198,40 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 5 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
+                  <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed mb-4">
-                        Sim. O evento contará com equipe de segurança especializada, posicionada em pontos estratégicos para garantir a tranquilidade de todos os presentes, desde a recepção até o encerramento. Além disso, será realizada triagem de entrada e conferência rigorosa dos convites.
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não será permitido o acesso aos veículos durante o baile, e qualquer saída após o início do evento será rigorosamente controlada. Caso precise ir ao seu veículo, você não poderá reingressar ao evento, então é fundamental planejar suas necessidades antes de entrar, evitando saídas desnecessárias.
                       </p>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed">
-                          <span className="font-bold">Não será permitido o ingresso de:</span> balões, infláveis e similares, faixas, totens, buzinas, apitos ou outros emissores sonoros, sky paper, sinalizadores, fogos de qualquer natureza, objetos cortantes ou ilícitos, câmeras semiprofissionais e profissionais.
-              </p>
-            </div>
-          </div>
-        </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === 6 ? null : 6)}
+                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
+                >
+                  <span className="font-semibold text-lg">O local do evento oferece boa acessibilidade?</span>
+                  <svg 
+                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 6 ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {openFaq === 6 && (
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Sim, rampas e elevadores.
+                      </p>
+                    </div>
+                  </div>
                 )}
               </div>
 
@@ -1123,7 +1255,7 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Ingressos extras são válidos somente para o baile,</span> com convites para entrada a partir das 23h59. Não serão feitas exceções.
+                        Ingressos extras são válidos somente para o baile, com convites para entrada a partir das 23h59. Não serão feitas exceções.
                       </p>
                     </div>
                   </div>
@@ -1136,7 +1268,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 8 ? null : 8)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">O local do evento oferece boa acessibilidade?</span>
+                  <span className="font-semibold text-lg">Se eu comprar mais ingressos (de outro formando) terei direito a mais cadeiras?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 8 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1150,58 +1282,12 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Sim, rampas e elevadores.</span>
-                  </p>
-                </div>
-              </div>
-                )}
-            </div>
-
-              {/* FAQ 8 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 8 ? null : 8)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quantos convites o formando receberá para o baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 8 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 8 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm font-semibold mb-3">Conforme as opções adquiridas:</p>
-                      <ul className="space-y-2 text-sm text-slate-300">
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Formando + 3 Convidados - Mesa Individual de 4 Lugares</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Formando + 5 Convidados - Mesa Individual de 6 Lugares</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Formando + 7 Convidados - Mesa Individual de 8 Lugares</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Formando + 9 Convidados - Mesa Individual de 10 Lugares</span>
-                        </li>
-                      </ul>
-                      <p className="text-slate-400 text-sm italic leading-relaxed mt-3">
-                        A venda de mesas extras já foi realizada e encontra-se encerrada, conforme os informativos previamente divulgados pela Comissão.
+                        Não. As mesas e cadeiras deverão respeitar o plano adquirido pelo respectivo formando e não poderão, em hipótese alguma, sofrerem trocas de posicionamento, mesmo que sejam para mesas próximas.
                       </p>
                     </div>
                   </div>
                 )}
-          </div>
+              </div>
 
               {/* FAQ 9 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
@@ -1209,7 +1295,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 9 ? null : 9)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Qual a política para crianças?</span>
+                  <span className="font-semibold text-lg">Qual o traje para baile?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 9 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1220,25 +1306,19 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 9 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
-              <div>
-                        <h4 className="font-semibold text-blue-400 mb-2">Crianças de 0 a 2 anos:</h4>
-                        <p className="text-slate-300 text-sm">Não é necessário convite, mas elas não terão cadeira.</p>
-              </div>
-              <div>
-                        <h4 className="font-semibold text-blue-400 mb-2">Crianças de 03 a 07 anos:</h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                          Precisam de convite, terão uma cadeira e serão contabilizadas como convidados no pacote de adesão. Nesse caso, será feito um <span className="font-semibold text-white">reembolso de R$60,00</span> dos convites retirados para essa faixa etária. O reembolso se dará mediante PIX em até 15 (quinze) dias úteis após evento.
-                        </p>
-              </div>
-                      <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30">
-                        <p className="text-yellow-400 text-sm leading-relaxed">
-                          <span className="font-bold">Importante:</span> Os convites para menores de 07 anos não podem ser usados por maiores de 07 anos e será feita uma conferência na entrada do evento. Todos os ingressos serão entregues antecipadamente, conforme o calendário a ser divulgado, não havendo nenhuma forma de retirá-los no momento do baile.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        <span className="text-yellow-400">●</span> Formandos e Formandas: Vestido Social Longo ou Smoking (gravata preta).
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        <span className="text-yellow-400">●</span> Pais e Convidados: Passeio Completo (terno completo com camisa social e gravata ou vestido longo ou midi).
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não será liberada entrada de convidados fora do dress code determinado. Mesmo para os convidados após às 23h59.
+                      </p>
+                    </div>
+                  </div>
                 )}
               </div>
 
@@ -1259,12 +1339,11 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 10 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
+                  <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Sim.</span> A Multifly tem uma parceria especial com a empresa de locação de trajes London Noiva e Noivo, oferecendo condições exclusivas para nossos clientes.
+                        Sim. A Multifly tem uma parceria especial com a empresa de locação de trajes London Noiva e Noivo, oferecendo condições exclusivas para nossos clientes.
                       </p>
-                      
                       <div>
                         <h4 className="font-semibold text-blue-400 mb-2">Modelos de Smoking disponíveis:</h4>
                         <ul className="space-y-1 text-sm text-slate-300">
@@ -1273,7 +1352,6 @@ export default function FerasLourdes2025() {
                           <li>• Modelo Adam: R$ 590</li>
                         </ul>
                       </div>
-
                       <div>
                         <h4 className="font-semibold text-blue-400 mb-2">Itens inclusos na locação:</h4>
                         <ul className="space-y-1 text-sm text-slate-300">
@@ -1286,12 +1364,10 @@ export default function FerasLourdes2025() {
                           <li>• Lavanderia</li>
                         </ul>
                       </div>
-
                       <div>
                         <h4 className="font-semibold text-blue-400 mb-2">Descontos especiais para pais e convidados:</h4>
                         <p className="text-slate-300 text-sm">De 20% a 50% na locação de ternos.</p>
                       </div>
-
                       <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30">
                         <p className="text-yellow-400 text-sm leading-relaxed">
                           <span className="font-bold">Importante:</span> Para garantir os valores promocionais, é necessário informar na recepção da loja que foi indicado pela Multifly.
@@ -1312,7 +1388,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 11 ? null : 11)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Com quanto tempo de antecedência o formando(a) deve chegar ao local do evento?</span>
+                  <span className="font-semibold text-lg">Com quanto tempo de antecedência o formando(a) deve chegar ao local do evento:</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 11 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1326,7 +1402,7 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não há necessidade do formando chegar antes no evento.</span>
+                        Não há necessidade do formando chegar antes no evento.
                       </p>
                     </div>
                   </div>
@@ -1350,13 +1426,10 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 12 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Haverá equipe de fotógrafos e cinegrafistas.</span> Está incluso no pacote o book digital com as fotos dos alunos sem separação por aluno. Será enviado 01 (um) link geral com todas as fotos do evento, de todos os formandos em até 120 dias após o baile, para os e-mails cadastrados no ato da adesão.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        As fotos dos eventos que antecedem a formatura, como os pré-eventos, já estão sendo compartilhadas pela empresa à Comissão de Formatura através de um link.
+                        Haverá equipe de fotógrafos. Está incluso no pacote o book digital com as fotos dos alunos sem separação por aluno. Será enviado 01 (um) link geral com todas as fotos do evento, de todos os formandos em até 120 dias após o baile, para os e-mails cadastrados no ato da adesão. As fotos dos eventos que antecedem a formatura, como os pré-eventos, já estão sendo compartilhadas pela empresa à Comissão de Formatura através de um link.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
                         Caso a família deseje adquirir outros produtos fotográficos, como álbuns ou placas de homenagem, essas opções estarão disponíveis para compra durante o Family Day e/ou em outros momentos oportunos pela equipe comercial do Studio Myt.
@@ -1386,7 +1459,7 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Na chegada e durante o evento,</span> nos estúdios e pontos de fotos determinados pela organização. Será disponibilizado um cronograma 30 dias antes do evento, com o detalhamento completo com um manual de como você poderá aproveitar ainda mais o fluxo de todas as ocasiões para potencializar ainda mais o resultado fotográfico, via Instagram Oficial da Empresa (@multifly.ag).
+                        Na chegada e durante o evento, nos estúdios e pontos de fotos determinados pela organização. Será disponibilizado um cronograma na semana do evento do evento, com o detalhamento completo com um manual de como você poderá aproveitar ainda mais o fluxo de todas as ocasiões para potencializar ainda mais o resultado fotográfico, via Instagram Oficial da Empresa (<span className="font-semibold text-white">@mutifly.ag</span>).
                       </p>
                     </div>
                   </div>
@@ -1410,13 +1483,13 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 14 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">O evento será 100% Open Food,</span> até às 4h00, de acordo com o cronograma de alimentação definido pela Comissão de Formatura, que inclui: Mesa de Antepastos; Ilhas Gastronômicas; Lanche da Madrugada; e Mesa de Sobremesas.
+                        O evento será 100% Open Food, até às 4h00, de acordo com o cronograma de alimentação definido pela Comissão de Formatura, que inclui: Mesa de Antepastos; Ilhas Gastronômicas; Lanche da Madrugada; e Mesa de Sobremesas.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">O evento será 100% Open Bar</span> de água, refrigerante e suco.
+                        O evento será 100% Open Bar de água, refrigerante e suco.
                       </p>
                     </div>
                   </div>
@@ -1441,12 +1514,12 @@ export default function FerasLourdes2025() {
                 </button>
                 {openFaq === 15 && (
                   <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        Para pessoas com alguma restrição alimentar, por exemplo, celíaca, deverá entrar em contato com a empresa pelo e-mail: <span className="font-semibold text-white">cuidadosalimentares@multifly.com.br</span> em até 40 dias antes do evento.
+                        Para pessoas com alguma restrição alimentar, por exemplo, celíaca, deverá entrar em contato com a empresa pelo e-mail: <span className="font-semibold text-white">cuidadosalimentares@multifly.com.br</span> em até 20 dias antes do evento. É indispensável que o e-mail inclua o laudo médico de até 60 dias comprovando a restrição alimentar, pois o documento tem que ser apresentado ao buffet para validação do reembolso.
                       </p>
-                      <p className="text-slate-300 text-sm leading-relaxed mt-3">
-                        Por prezarmos pela saúde e segurança dos nossos clientes, informamos que não oferecemos cardápio sem glúten em nossos eventos. Como a cozinha do Buffet é única, há risco de contaminação cruzada, mesmo com alimentos naturalmente sem glúten. Por isso, optamos por devolver o valor referente à alimentação ao formando e/ou convidado que tenha essa necessidade, em até 15 dias úteis, para que possa escolher um restaurante ou fornecedor de sua confiança.
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Por prezarmos pela saúde e segurança dos nossos clientes, informamos que não oferecemos cardápio sem glúten em nossos eventos. Como a cozinha do Buffet é única, há risco de contaminação cruzada, mesmo com alimentos naturalmente sem glúten. Por isso, optamos por devolver o valor referente à alimentação ao formando e/ou convidado que tenha essa necessidade, em até 15 dias úteis, para que possa escolher um restaurante ou fornecedor de sua confiança. Essa medida visa garantir liberdade, segurança e respeito às restrições alimentares.
                       </p>
                     </div>
                   </div>
@@ -1470,16 +1543,16 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 16 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Sim,</span> o custo da rolha é de R$80,00 por garrafa ou 3 (três) garrafas por R$150,00 e serão permitidos somente destilados e vinhos. As garrafas podem ser de no máximo, 1 (um) litro. O valor deverá ser pago diretamente na chegada do evento.
+                        Sim, o custo da rolha é de R$80,00 por garrafa ou 3 (três) garrafas por R$150,00 e serão permitidos somente destilados e vinhos. As garrafas podem ser de no máximo, 1 (um) litro. O valor deverá ser pago diretamente na chegada do evento.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        A cobrança de rolha é exclusiva para pais e responsáveis com entrada das bebidas apenas entre 19h30 e 22h00, após esse horário não é permitida a entrada de bebidas sob nenhuma hipótese ou condição.
+                        As rolhas só poderão ser entregues pelo responsável que assinou o contrato, com entrada das bebidas apenas entre 19h30 e 22h00. É importante que todas as garrafas sejam levadas ao evento de uma só vez. Após essa entrada, não será possível trazer novas garrafas, mesmo que o limite de 3 ainda não tenha sido alcançado.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        O serviço de copos será padrão, não havendo distinção para cada tipo de bebida da rolha. Energéticos e xaropes não serão aceitos como parte da rolha, e especiarias para o gin também não poderão ser levadas, pois o evento contará com um bar especializado em drinks elaborados para venda.
+                        O serviço de copos será padrão, não havendo distinção para cada tipo de bebida da rolha. Energéticos e xaropes não serão aceitos como parte da rolha, e especiarias para o gin também não poderão ser levadas, pois o evento contará com um bar especializado em drinks elaborados para venda. Por fim, não será necessário levar saca-rolhas, pois os garçons estarão equipados para esse serviço.
                       </p>
                     </div>
                   </div>
@@ -1503,17 +1576,20 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 17 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Na modalidade rolha, é permitido levar bebidas destiladas</span> (como whisky, vodka, gin, entre outros) e vinhos.
+                        Na modalidade rolha, é permitido levar bebidas destiladas (como whisky, vodka, gin, entre outros) e vinhos.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não é permitido trazer cerveja nem espumante,</span> pois essas bebidas já estarão disponíveis para compra no local, na temperatura adequada ao consumo.
+                        Não é permitido trazer cerveja nem espumante, pois essas bebidas já estarão disponíveis para compra no local, na temperatura adequada ao consumo.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Lembramos que é proibido o consumo e a compra de bebidas alcoólicas por menores de 18 anos. Todos os maiores de idade serão identificados pela nossa equipe e deverão assinar um termo de responsabilidade referente ao consumo de álcool.
                       </p>
                       <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
                         <p className="text-red-400 text-sm leading-relaxed">
-                          <span className="font-bold">Importante:</span> Lembramos que é proibido o consumo e a compra de bebidas alcoólicas por menores de 18 anos. Todos os maiores de idade serão identificados pela nossa equipe e deverão assinar um termo de responsabilidade referente ao consumo de álcool.
+                          Fica expressamente vedado o fornecimento, disponibilização ou incentivo ao consumo de bebidas alcoólicas por crianças e adolescentes, nos termos do Estatuto da Criança e do Adolescente (Lei nº 8.069/1990). Caso algum pai, mãe ou responsável legal opte por trazer bebidas alcoólicas para o evento, este assumirá integral e exclusiva responsabilidade civil, administrativa e, se for o caso, criminal pelo consumo das referidas bebidas por seus convidados, inclusive por eventuais consequências decorrentes do acesso indevido de menores ao álcool, isentando os organizadores do evento de qualquer responsabilidade.
                         </p>
                       </div>
                     </div>
@@ -1538,19 +1614,50 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 18 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não será permitido levar alimentos ou bebidas</span> para presentear os formandos no dia do baile, como caixas com chocolates ou balões, por questões de segurança.
+                        Não será permitido levar alimentos ou bebidas para presentear os formandos no dia do baile, como caixas com chocolates ou balões, por questões de segurança.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Será permitido levar um buquê para o formando,</span> mas é importante destacar que não será permitido nenhum objeto ou material que faça barulho ou espalhe papel picado pelo salão, para não atrapalhar a entrada de outros formandos.
+                        Será permitido levar um buquê para o formando, mas é importante destacar que não será permitido nenhum objeto ou material que faça barulho ou espalhe papel picado pelo salão, para não atrapalhar a entrada de outros formandos.
                       </p>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed">
-                          <span className="font-bold">Não será permitido o ingresso de:</span> balões, infláveis e similares, faixas, totens, buzinas, apitos ou outros emissores sonoros, sky paper, sinalizadores, fogos de qualquer natureza, objetos cortantes ou ilícitos, fumos, vaporizadores ou afins, pulseiras com fluído neon, câmeras digitais semiprofissionais e profissionais, aerossóis, líquidos, vidros, entre outros.
-                        </p>
-                      </div>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não será permitido o ingresso de itens como balões, infláveis e similares, faixas, totens, buzinas, apitos ou outros emissores sonoros, sky paper, sinalizadores, fogos de qualquer natureza, objetos cortantes ou ilícitos, fumos, vaporizadores ou afins, pulseiras com fluído neon, câmeras digitais semiprofissionais e profissionais, aerossóis, líquidos, vidros, entre outros.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Caso a embalagem não permita a visualização do conteúdo, poderá ser solicitada a abertura para conferência na entrada do evento pela equipe de segurança
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 19 */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === 19 ? null : 19)}
+                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
+                >
+                  <span className="font-semibold text-lg">Qual o horário da valsa?</span>
+                  <svg 
+                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 19 ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {openFaq === 19 && (
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Aproximadamente às <span className="font-semibold text-white">00h00</span>. O formando(a) poderá escolher uma pessoa para dançar a valsa. A música será única para todos os formandos e definida pela Comissão de Formatura.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Se o formando optar por dançar com mais de um par, é importante que se organize previamente em relação ao tempo da música, pois não haverá pausas para trocas durante a apresentação.
+                      </p>
                     </div>
                   </div>
                 )}
@@ -1562,329 +1669,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 20 ? null : 20)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Quem precisa apresentar convite?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 20 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 11 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Formandos e Convidados (Todos):</span> Imprescindível a apresentação do convite. Em caso de perda ou esquecimento do ingresso, não será permitida a entrada no evento.
-                      </p>
-              </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 11 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 11 ? null : 11)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">É permitido entrar e sair durante o evento?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 11 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 11 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não será permitido o acesso aos veículos durante o baile,</span> e qualquer saída após o início do evento será rigorosamente controlada. Caso precise ir ao seu veículo, você não poderá reingressar ao evento, então é fundamental planejar suas necessidades antes de entrar, evitando saídas desnecessárias.
-                </p>
-              </div>
-            </div>
-                )}
-          </div>
-
-              {/* FAQ 12 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 12 ? null : 12)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">O local do evento oferece boa acessibilidade?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 12 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 12 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Sim, rampas e elevadores.</span>
-                      </p>
-              </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 13 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 13 ? null : 13)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Se eu comprar mais ingressos (de outro formando) terei direito a mais cadeiras?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 13 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 13 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Não.</span> As mesas e cadeiras deverão respeitar o plano adquirido pelo respectivo formando e não poderão, em hipótese alguma, sofrerem trocas de posicionamento, mesmo que sejam para mesas próximas.
-                </p>
-              </div>
-            </div>
-                )}
-          </div>
-
-              {/* FAQ 14 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 14 ? null : 14)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Qual o traje para baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 14 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 14 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <div>
-                        <h4 className="font-bold text-yellow-400 mb-2">Formandas:</h4>
-                        <p className="text-slate-300 text-sm">Vestido Social Longo ou Smoking (gravata preta)</p>
-              </div>
-                      <div>
-                        <h4 className="font-bold text-blue-400 mb-2">Formandos:</h4>
-                        <p className="text-slate-300 text-sm">Vestido Social Longo ou Smoking (gravata preta)</p>
-            </div>
-                      <div>
-                        <h4 className="font-bold text-slate-400 mb-2">Pais e Convidados:</h4>
-                        <p className="text-slate-300 text-sm">Passeio Completo (terno completo com camisa social e gravata ou vestido longo ou midi)</p>
-                      </div>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm">
-                          <span className="font-bold">Importante:</span> Não será liberada entrada de convidados fora do dress code determinado.
-                </p>
-              </div>
-            </div>
-                  </div>
-                )}
-          </div>
-
-              {/* FAQ 15 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 15 ? null : 15)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Com quanto tempo de antecedência devo chegar?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 15 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 15 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Formandos e convidados podem chegar a partir das <span className="font-semibold text-white">19h30</span> para o circuito fotográfico.
-                      </p>
-              </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 16 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 16 ? null : 16)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">O evento contará com equipe de fotografia?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 16 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 16 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Exclusivamente neste evento, a captação de imagens será realizada pelo <span className="font-semibold text-white">Studio Myt</span>, empresa parceira da Multifly, com equipe de fotógrafos e cinegrafistas.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        As fotografias registradas durante a realização do evento serão disponibilizadas por meio de um link individual e exclusivo, enviado ao endereço de e-mail informado no momento da contratação do pacote de formatura. O prazo para disponibilização é de até <span className="font-semibold text-white">60 (sessenta) dias úteis</span> após a data do evento.
-                      </p>
-                      <div className="bg-blue-900/20 backdrop-blur-md rounded-lg p-3 border border-blue-500/30">
-                        <p className="text-blue-400 text-sm leading-relaxed">
-                          Se a família desejar adquirir outros produtos fotográficos como álbuns, os mesmos serão disponibilizados e oferecidos no evento Family Day e/ou outro evento oportuno. Para mais informações e compras, entre em contato pelo telefone <span className="font-semibold text-white">(41) 99901-0937</span>.
-                </p>
-              </div>
-            </div>
-          </div>
-                )}
-        </div>
-
-              {/* FAQ 17 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 17 ? null : 17)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Em que momento farei as fotos com familiares?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 17 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 17 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Na chegada e durante o evento, nos estúdios e pontos de fotos determinados pela organização. Após o protocolo, os estúdios ficarão abertos até às <span className="font-semibold text-white">01h00</span>.
-            </p>
-          </div>
-            </div>
-                )}
-          </div>
-
-              {/* FAQ 18 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 18 ? null : 18)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Como será o serviço de alimentação do baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 18 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 18 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        O evento será <span className="font-semibold text-white">100% Open Food, até às 4h00</span> com:
-                      </p>
-                      <ul className="space-y-2 text-sm text-slate-300">
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Mesa de Antepastos</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Ilhas Gastronômicas</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Lanche da Madrugada</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Sobremesas</span>
-                        </li>
-                      </ul>
-                      <p className="text-slate-400 text-sm leading-relaxed">
-                        A comissão de formatura fará a seleção do cardápio e será divulgado em até 30 dias antecedentes ao evento.
-                      </p>
-                      <p className="text-slate-400 text-sm leading-relaxed">
-                        O evento conta com o seguinte cardápio Soft: água com e sem gás, refrigerante normal e zero e 3 sabores de suco.
-            </p>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 19 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 19 ? null : 19)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Para o baile, haverá rolha?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 19 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 20 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Sim, serão permitidas <span className="font-semibold text-white">4 rolhas</span>. As garrafas podem ser de no máximo, 1 (um) litro. A logística da Rolha será divulgada em até 30 dias antecedentes ao evento.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        O serviço de copos será padrão, não havendo distinção para cada tipo de bebida da rolha.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Por fim, não será necessário levar saca-rolhas, pois os garçons estarão equipados para esse serviço.
-            </p>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 20 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 20 ? null : 20)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quais tipos de bebidas posso levar na rolha?</span>
+                  <span className="font-semibold text-lg">Como funcionará a logística de estúdios de fotos no baile?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 20 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1895,32 +1680,37 @@ export default function FerasLourdes2025() {
                   </svg>
                 </button>
                 {openFaq === 20 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
-                      <div>
-                        <h4 className="font-semibold text-green-400 mb-2">Permitido:</h4>
-                        <p className="text-slate-300 text-sm">Whisky, gin, vodka, vinho e espumante.</p>
-                        <p className="text-slate-400 text-sm mt-2 italic">Caso haja a necessidade de gelar as bebidas, os responsáveis poderão efetuar a compra de baldes de gelo para uso na mesa.</p>
-            </div>
-                      <div>
-                        <h4 className="font-semibold text-red-400 mb-2">Proibido levar:</h4>
-                        <p className="text-slate-300 text-sm">Cerveja, energéticos, xaropes e especiarias para o gin.</p>
-          </div>
-                      <div>
-                        <h4 className="font-semibold text-blue-400 mb-2">Disponível para compra:</h4>
-                        <p className="text-slate-300 text-sm">Drinks Clássicos e Autorais, Cerveja, Energéticos, Espumantes, Balde de Gelo, entre outros.</p>
-                        <p className="text-slate-400 text-sm mt-2 italic">O cardápio completo de bebidas será divulgado em até 30 dias antecedentes ao evento.</p>
-            </div>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed">
-                          <span className="font-bold">Importante:</span> É proibido o consumo e a compra de bebidas alcoólicas para menores de 18 anos. Maiores serão identificados pela nossa equipe e precisarão assinar um Termo de Responsabilidade.
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Uma publicação no Instagram Oficial da Empresa (<span className="font-semibold text-white">@multifly.ag</span>) será divulgada na semana do evento, orientando como aproveitar melhor a estrutura de fotos, porém seguem todas as informações necessárias para se planejarem adequadamente.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não haverá garantia de fotos da entrada dos formandos, pois esse momento será registrado exclusivamente em vídeo. Da mesma forma, o momento da valsa será feito no circuito de fotos de forma posada. A valsa, no evento, será registrada apenas em vídeo, em plano aberto, com foco na composição geral do salão. Por esse motivo, não é possível garantir o enquadramento individual dos pares durante a gravação e não serão feitas fotos durante a apresentação.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        As famílias estão cientes de que é de sua total responsabilidade, assim como a de seus convidados, dirigir-se aos locais de captação de imagens disponibilizados durante o evento. A orientação para que a família e convidados compareçam a esses locais é exclusivamente do formando e/ou seus responsáveis. Além disso, o formando deve estar ciente de que deve se dirigir aos estúdios fotográficos dentro do horário disponível: das 19h30 às 01h00.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Em razão das particularidades que envolvem os serviços contratados, o fato de alguém ter sido fotografado não significa que estas imagens estarão com qualidade suficiente e somente serão disponibilizadas as imagens que se adequarem à qualidade técnica definida pela empresa.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        É bastante comum alguns formandos possuírem mais fotos do que outros, visto que cada formando interage de maneira diferente e específica com o evento e com a equipe, principalmente, porém não somente, no que tange à disposição e interesse de permanência e frequência nos estúdios e pontos de foto.
+                      </p>
+                      <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30">
+                        <p className="text-yellow-400 text-sm font-bold mb-2">Importante:</p>
+                        <p className="text-slate-300 text-sm leading-relaxed mb-2">
+                          Serão feitas fotos em momentos diversos do baile, porém as fotos garantidas são somente as fotos nos estúdios. As fotos no baile dependem da interação e disponibilidade dos formandos.
                         </p>
-                        <p className="text-red-400 text-sm leading-relaxed mt-3">
-                          Fica expressamente vedado o fornecimento, disponibilização ou incentivo ao consumo de bebidas alcoólicas por crianças e adolescentes, nos termos do Estatuto da Criança e do Adolescente (Lei n° 8.069/1990). Caso algum pai, mãe ou responsável legal opte por trazer bebidas alcoólicas para o evento, este assumirá integral e exclusiva responsabilidade civil, administrativa e, se for o caso, criminal pelo consumo das referidas bebidas por seus convidados, inclusive por eventuais consequências decorrentes do acesso indevido de menores ao álcool, isentando os organizadores do evento de qualquer responsabilização.
-            </p>
-          </div>
-        </div>
-          </div>
+                        <p className="text-slate-300 text-sm leading-relaxed mb-2">
+                          Não são permitidas máquinas profissionais e semi profissionais, drones, flashes e ringlights. Não são permitidas fotos, mesmo que de smartphones, nos estúdios. Durante o evento, haverá organização da fila para garantir que os convidados se acomodem adequadamente, com uma equipe dedicada para isso. Os fotógrafos, que estarão com crachá do Studio Myt para fácil identificação, não ficarão disponíveis nas mesas, pois as fotos serão realizadas nos estúdios fotográficos.
+                        </p>
+                        <p className="text-slate-300 text-sm leading-relaxed mb-2">
+                          Ao chegar no salão, não será tirada uma foto de entrada, solicita-se aos formandos e convidados que se dirijam aos estúdios. Será entregue uma pulseira de LED, garantindo que todos os formandos sejam corretamente identificados. É importante que essa pulseira mantenha-se no pulso e ligada durante todo o período do evento.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 )}
               </div>
 
@@ -1944,49 +1734,9 @@ export default function FerasLourdes2025() {
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">As atrações serão definidas pela Comissão de Formatura</span> junto com o produtor musical da Multifly.
+                        As atrações serão definidas pela Comissão de Formatura junto com o produtor musical da Multifly.
                       </p>
                     </div>
-                  </div>
-                )}
-              </div>
-
-              {/* FAQ 23 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button
-                  onClick={() => setOpenFaq(openFaq === 23 ? null : 23)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">O que não posso levar ao baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 23 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 21 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Não será permitido levar alimentos ou bebidas para presentear os formandos no dia do baile, como caixas com chocolates ou balões, por questões de segurança.
-                      </p>
-                      <div className="bg-green-900/20 backdrop-blur-md rounded-lg p-3 border border-green-500/30">
-                        <p className="text-green-400 text-sm">
-                          <span className="font-bold">Permitido:</span> Buquê (sem barulho ou papel picado)
-                        </p>
-            </div>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed mb-2">
-                          <span className="font-bold">Itens proibidos:</span>
-                        </p>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                          Balões, infláveis e similares, faixas, totens, buzinas, apitos ou outros emissores sonoros, sky paper, sinalizadores, fogos de qualquer natureza, objetos cortantes ou ilícitos, fumos, vaporizadores ou afins, pulseiras com fluído neon, câmeras digitais, semiprofissionais e profissionais, aerossóis, líquidos, vidros, entre outros.
-            </p>
-          </div>
-            </div>
                   </div>
                 )}
               </div>
@@ -1997,7 +1747,7 @@ export default function FerasLourdes2025() {
                   onClick={() => setOpenFaq(openFaq === 22 ? null : 22)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Qual o horário da valsa?</span>
+                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 22 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -2009,187 +1759,18 @@ export default function FerasLourdes2025() {
                 </button>
                 {openFaq === 22 && (
                   <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Aproximadamente às 00h00.</span> O formando(a) poderá escolher uma pessoa para dançar a valsa. A música será única para todos os formandos e definida pela Comissão de Formatura.
-            </p>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 23 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 23 ? null : 23)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Como funcionará a logística de estúdios de fotos no baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 23 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 23 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        As famílias estão cientes de que é de sua total responsabilidade — assim como a de seus convidados — dirigir-se aos locais de captação de imagens disponibilizados durante o evento. A orientação para que familiares e convidados compareçam a esses espaços cabe exclusivamente à própria família e/ou seus responsáveis. Além disso, todos devem se atentar ao horário de funcionamento dos estúdios fotográficos, que estará disponível das <span className="font-semibold text-white">19h30 às 01h00</span>.
+                        Você pode entrar em contato com a Multilfly pelo (41) 3014-8108 ou pelo e-mail contato@multifly.com.br. O SAC Multifly também está disponível via WhatsApp (41) 99539-9895 com uma equipe pronta para te atender.
                       </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        Não haverá garantia de fotos da entrada dos formandos, pois esse momento será registrado exclusivamente em vídeo. Da mesma forma, o momento da valsa será feito no circuito de fotos de forma posada. A valsa, no evento, será registrada apenas em vídeo, sem fotos durante a apresentação.
+                        Em caso de dificuldade você pode contatar diretamente a Multifly pelos contatos indicados.
                       </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Em razão das particularidades que envolvem os serviços contratados, o fato de alguém ter sido fotografado não significa que estas imagens estarão com qualidade suficiente e somente serão disponibilizadas as imagens que se adequarem à qualidade técnica definida pela empresa.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        É comum alguns formandos possuírem mais fotos do que outros, visto que cada formando interage de maneira diferente e específica com o evento e com a equipe, principalmente, porém não somente, no que tange à disposição e interesse de permanência e frequência nos estúdios e pontos.
-                      </p>
-                      <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30 space-y-2">
-                        <p className="text-yellow-400 text-sm">
-                          <span className="font-bold">Importante:</span>
-                        </p>
-                        <ul className="space-y-2 text-sm text-slate-300">
-                          <li>• Serão feitas fotos em momentos diversos do baile, porém as fotos garantidas são somente as fotos nos estúdios, as fotos no baile dependem da interação e disponibilidade dos formandos</li>
-                          <li>• Não são permitidas máquinas profissionais e semi profissionais, drones, flashes e ringlights</li>
-                          <li>• Não são permitidas fotos, mesmo que de smartphones, nos estúdios</li>
-                          <li>• Durante o evento, haverá organização da fila para garantir que os convidados se acomodem adequadamente, com uma equipe dedicada para isso</li>
-                          <li>• Os fotógrafos, que estarão uniformizados para fácil identificação, não ficarão disponíveis nas mesas, pois as fotos serão realizadas nos estúdios fotográficos</li>
-                          <li>• Ao chegar no salão, não será tirada uma foto de entrada, solicita-se aos formandos e convidados que se dirijam aos estúdios</li>
-                          <li>• Será entregue uma pulseira de LED, garantindo que todos sejam corretamente identificados. É importante que essa pulseira mantenha-se no pulso e ligada durante todo o período do evento</li>
-                        </ul>
-          </div>
-        </div>
-                </div>
-                )}
-                </div>
-
-              {/* FAQ 24 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button
-                  onClick={() => setOpenFaq(openFaq === 24 ? null : 24)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Qual a atração do evento?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 24 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 24 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        As atrações serão definidas pela <span className="font-semibold text-white">Comissão de Formatura</span> junto com o produtor musical da Multifly.
-              </p>
-            </div>
-          </div>
-                )}
-        </div>
-
-              {/* FAQ 25 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 25 ? null : 25)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Qual o cronograma do evento?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 25 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 25 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        O cronograma oficial do evento será disponibilizado com até <span className="font-semibold text-white">30 dias de antecedência</span>. Diversas possibilidades estão sendo cuidadosamente analisadas e debatidas em conjunto com a comissão de formatura, garantindo que cada detalhe reflita os desejos e expectativas dos formandos.
-                      </p>
-              </div>
+                    </div>
                   </div>
                 )}
               </div>
-
-              {/* FAQ 26 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 26 ? null : 26)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Posso trocar meu plano ou alterar convidados?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 26 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 26 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Sim, é possível ampliar seu plano até o limite de <span className="font-semibold text-white">10 pessoas por mesa</span>, de acordo com as opções disponíveis, até o dia <span className="font-semibold text-white">20 de outubro</span>. No entanto, não é permitido adicionar apenas um lugar avulso. Qualquer alteração deve respeitar a estrutura dos pacotes oferecidos (4, 6, 8 ou 10 lugares).
-                      </p>
-          </div>
             </div>
-                )}
-              </div>
-
-              {/* FAQ 27 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 27 ? null : 27)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 27 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 27 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <div className="space-y-2">
-              <p className="text-slate-300 text-sm">
-                          <span className="font-semibold text-white">Telefone:</span> (41) 3014-8108
-                        </p>
-                        <p className="text-slate-300 text-sm">
-                          <span className="font-semibold text-white">E-mail:</span> contato@multifly.com.br
-              </p>
-              <p className="text-slate-300 text-sm">
-                          <span className="font-semibold text-white">Especialista em atendimento:</span> Amanda estará disponível para resolver qualquer situação e tirar quaisquer dúvidas que possam surgir ao longo do processo. Ela tem uma vasta experiência em formaturas e poderá acompanhar qualquer etapa da jornada.
-              </p>
-              <p className="text-slate-300 text-sm">
-                          <span className="font-semibold text-white">WhatsApp Amanda (Diretora de Atendimento):</span> 41 99866-8055
-              </p>
-            </div>
-                      <p className="text-slate-400 text-sm italic leading-relaxed">
-                        Amanda tem vasta experiência em formaturas e poderá acompanhar qualquer etapa da jornada, resolvendo qualquer situação e tirando dúvidas.
-                      </p>
-                </div>
-                </div>
-                )}
-                </div>
-              </div>
 
             {/* Seção de Contato - FAQ */}
             <div className="max-w-6xl mx-auto mt-16">
@@ -2199,15 +1780,13 @@ export default function FerasLourdes2025() {
                 {/* Card 1: Multifly Eventos */}
                 <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-8 border border-slate-700/50 shadow-xl">
                   <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                      <svg className="w-7 h-7 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-            </div>
-                    <h3 className="text-2xl font-bold">Multifly Eventos</h3>
-          </div>
+                    <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center p-2">
+                      <img src="/Y.svg" alt="Multifly" className="w-full h-full" />
+                    </div>
+                    <h3 className="text-2xl font-bold">Multifly</h3>
+                  </div>
                   
-                  <div className="space-y-4">
+        <div className="space-y-4">
                     <a href="tel:+554130148108" className="flex items-center gap-3 hover:text-yellow-400 transition-colors">
                       <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -2224,53 +1803,72 @@ export default function FerasLourdes2025() {
                     
                   <div className="bg-yellow-400/10 backdrop-blur-md rounded-lg p-4 border border-yellow-400/30 mt-6">
                     <h4 className="font-bold text-yellow-400 mb-3">Atendimento Personalizado</h4>
-                    <p className="text-white font-semibold mb-3">Amanda - Diretora de Atendimento</p>
+                    <p className="text-white font-semibold mb-3">SAC Multifly</p>
                     <div className="flex items-center justify-between gap-3 mb-3">
                       <div className="flex items-center gap-2">
                         <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                         </svg>
-                        <p className="text-slate-300 font-semibold">(41) 99866-8055</p>
-              </div>
-                      <a href="https://wa.me/5541998668055" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
+                        <p className="text-slate-300 font-semibold">(41) 99539-9895</p>
+            </div>
+                      <a href="https://wa.me/5541995399895" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
                         Clique para entrar em contato
                       </a>
-            </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
-                      Vasta experiência em formaturas para acompanhar qualquer etapa da jornada
-            </p>
+                    </div>
           </div>
-              </div>
-          </div>
+        </div>
+        </div>
 
-                {/* Card 2: Fotografia */}
-                <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-8 border border-slate-700/50 shadow-xl">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-              </div>
-                    <h3 className="text-2xl font-bold">Fotografia - Produtos Adicionais</h3>
-            </div>
+              {/* Card 2: Studio MYT */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-8 border border-slate-700/50 shadow-xl">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center p-2">
+                    <img src="/Logo Myt.svg" alt="Studio MYT" className="w-full h-full" />
+                  </div>
+                  <h3 className="text-2xl font-bold">Studio MYT</h3>
+                </div>
+                
+        <div className="space-y-4">
+                  <a href="tel:+554199010937" className="flex items-center gap-3 hover:text-yellow-400 transition-colors">
+                    <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <p className="text-slate-300">(41) 99901-0937</p>
+                  </a>
                   
-                  <div className="space-y-4">
-                    <a href="tel:+554199010937" className="flex items-center gap-3 hover:text-yellow-400 transition-colors">
-                      <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                      <p className="text-slate-300">(41) 99901-0937</p>
-                    </a>
-                    
-                    <div className="bg-blue-900/20 backdrop-blur-md rounded-lg p-4 border border-blue-500/30 mt-6">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Para álbuns e outros produtos fotográficos disponíveis no Family Day
-            </p>
-          </div>
+                  <a href="mailto:atendimento@studiomyt.com.br" className="flex items-center gap-3 hover:text-yellow-400 transition-colors">
+                    <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <p className="text-slate-300">atendimento@studiomyt.com.br</p>
+                  </a>
+                  
+                  <div className="bg-blue-900/20 backdrop-blur-md rounded-lg p-4 border border-blue-500/30 mt-6">
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      Para álbuns e outros produtos fotográficos disponíveis no Family Day
+                    </p>
+                    <p className="text-slate-400 text-xs mt-2 italic">
+                      Entre em contato para mais informações sobre produtos e serviços fotográficos.
+                    </p>
+                  </div>
+
+                  <div className="bg-yellow-400/10 backdrop-blur-md rounded-lg p-4 border border-yellow-400/30 mt-6">
+                    <h4 className="font-bold text-yellow-400 mb-3">Atendimento Studio MYT</h4>
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                        <p className="text-slate-300 font-semibold">(41) 99901-0937</p>
+                      </div>
+                      <a href="https://wa.me/5541999010937" target="_blank" rel="noopener noreferrer" className="bg-green-500/20 backdrop-blur-md border border-green-500/50 text-green-400 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-300 hover:bg-green-500 hover:text-white hover:scale-105 whitespace-nowrap">
+                        Clique para entrar em contato
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </section>
