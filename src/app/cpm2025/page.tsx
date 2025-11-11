@@ -664,9 +664,9 @@ export default function CPM() {
             <div className="max-w-6xl mx-auto pt-20 pb-20">
             <h2 className="text-3xl font-bold text-center mb-12">Informações Adicionais</h2>
             
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-1 gap-6 justify-items-center">
               {/* Card 1: Valsa */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-full max-w-xl bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -680,35 +680,6 @@ export default function CPM() {
                 </p>
               </div>
 
-              {/* Card 2: Cronograma */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold">Cronograma</h3>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  O cronograma oficial do evento será disponibilizado <span className="font-semibold text-white">30 dias antes do evento</span>, após análise com a comissão de formatura.
-            </p>
-          </div>
-
-              {/* Card 3: Alterações */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-indigo-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                    </svg>
-        </div>
-                  <h3 className="text-xl font-bold">Alterações</h3>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Possível ampliar plano até <span className="font-semibold text-white">10 pessoas por mesa até 20 de outubro</span>. Não é permitido adicionar lugar avulso.
-            </p>
-          </div>
         </div>
           </div>
           </div>
@@ -1689,7 +1660,7 @@ export default function CPM() {
                   onClick={() => setOpenFaq(openFaq === 26 ? null : 26)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Posso trocar meu plano ou alterar convidados?</span>
+                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 26 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -1700,33 +1671,6 @@ export default function CPM() {
                   </svg>
                 </button>
                 {openFaq === 26 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Sim, é possível ampliar seu plano até o limite de <span className="font-semibold text-white">10 pessoas por mesa</span>, de acordo com as opções disponíveis, até o dia <span className="font-semibold text-white">20 de outubro</span>. No entanto, não é permitido adicionar apenas um lugar avulso. Qualquer alteração deve respeitar a estrutura dos pacotes oferecidos (4, 6, 8 ou 10 lugares).
-                      </p>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 27 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 27 ? null : 27)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 27 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 27 && (
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <div className="space-y-2">

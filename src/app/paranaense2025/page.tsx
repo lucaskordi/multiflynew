@@ -251,6 +251,12 @@ export default function Paranaense() {
                       <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
+                      <p><span className="font-semibold">Horário de Chegada dos Formandos:</span> 17h30</p>
+              </div>
+                    <div className="flex items-center">
+                      <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
               <p><span className="font-semibold">Horário:</span> 19h45</p>
               </div>
                     <div className="flex items-center">
@@ -982,9 +988,9 @@ export default function Paranaense() {
             <div className="max-w-6xl mx-auto pt-20 pb-20">
             <h2 className="text-3xl font-bold text-center mb-12">Informações Adicionais</h2>
             
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-1 gap-6 justify-items-center">
               {/* Card 1: Valsa */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
+              <div className="w-full max-w-xl bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -994,37 +1000,7 @@ export default function Paranaense() {
                   <h3 className="text-xl font-bold">Valsa</h3>
                 </div>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Aproximadamente às <span className="font-semibold text-white">23h00</span>. Formandos escolhem uma pessoa para dançar. Música única definida pela comissão de formatura.
-                </p>
-              </div>
-
-              {/* Card 2: Cronograma */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-cyan-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold">Cronograma</h3>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  O cronograma oficial do evento será disponibilizado <span className="font-semibold text-white">30 dias antes do evento</span>, após análise com a comissão de formatura.
-            </p>
-          </div>
-
-              {/* Card 3: Alterações */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-indigo-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                    </svg>
-        </div>
-                  <h3 className="text-xl font-bold">Alterações</h3>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Possível ampliar plano até <span className="font-semibold text-white">10 pessoas por mesa até 26 de setembro</span>. Não é permitido adicionar lugar avulso.
+                  Aproximadamente às <span className="font-semibold text-white">23h00</span>. As valsas serão divididas por turma. Músicas serão definidas pela comissão de formatura.
             </p>
           </div>
         </div>
@@ -1821,31 +1797,29 @@ export default function Paranaense() {
                 </button>
                 {openFaq === 18 && (
                   <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        O evento será <span className="font-semibold text-white">100% Open Food, até às 4h00</span> com:
+                        O evento será <span className="font-semibold text-white">100% Open Food</span>, com:
                       </p>
-                      <ul className="space-y-2 text-sm text-slate-300">
-                        <li className="flex items-start gap-2">
+                      <div className="space-y-3 text-sm text-slate-300">
+                        <p className="font-semibold text-white">Logística da Alimentação</p>
+                        <div className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Mesa de Antepastos</span>
-                        </li>
-                        <li className="flex items-start gap-2">
+                          <span>Mesa de Antepastos (20h00 - 00h00)</span>
+                        </div>
+                        <div className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Ilhas Gastronômicas</span>
-                        </li>
-                        <li className="flex items-start gap-2">
+                          <span>Sobremesas (20h00 - 02h00)</span>
+                        </div>
+                        <div className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Lanche da Madrugada</span>
-                        </li>
-                        <li className="flex items-start gap-2">
+                          <span>Ilhas Gastronômicas (20h00 - 02h00)</span>
+                        </div>
+                        <div className="flex items-start gap-2">
                           <span className="text-yellow-400">•</span>
-                          <span>Sobremesas</span>
-                        </li>
-                      </ul>
-                      <p className="text-slate-400 text-sm leading-relaxed">
-                        Cardápio Soft: água com e sem gás, refrigerante normal e zero e 2 sabores de suco.
-            </p>
+                          <span>Lanche da Madrugada (02h00 - 04h00)</span>
+                        </div>
+                      </div>
           </div>
             </div>
                 )}
@@ -2117,7 +2091,7 @@ export default function Paranaense() {
                   onClick={() => setOpenFaq(openFaq === 27 ? null : 27)}
                   className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
                 >
-                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
+                  <span className="font-semibold text-lg">Como funcionará a entrada após as 23h59?</span>
                   <svg 
                     className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 27 ? 'rotate-180' : ''}`}
                     fill="none" 
@@ -2128,6 +2102,39 @@ export default function Paranaense() {
                   </svg>
                 </button>
                 {openFaq === 27 && (
+                  <div className="px-6 pb-6 animate-fadeIn">
+                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Não é permitida a entrada de rolhas (garrafas ou quaisquer tipos de bebidas) após às <span className="font-semibold text-white">23h59</span>, em hipótese alguma.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        São documentos considerados válidos apenas: <span className="font-semibold text-white">RG, CNH e Passaporte</span>. Não serão aceitos prints ou fotos de documentos sob nenhuma hipótese. Não serão aceitos documentos com fotos de criança que não sejam possíveis conferir com a idade atual do convidado.
+                      </p>
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        Somente serão válidos os documentos digitais apresentados no aplicativo oficial do governo pertinente à categoria do documento apresentado. Todos os documentos digitais passarão por análise rigorosa para conferir a sua veracidade, o que pode atrasar consideravelmente a entrada no evento. É muito importante estar ciente disso ao optar por esse modelo.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 28 */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === 28 ? null : 28)}
+                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
+                >
+                  <span className="font-semibold text-lg">Quais os contatos da empresa de formatura?</span>
+                  <svg 
+                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 28 ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {openFaq === 28 && (
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <div className="space-y-2">
