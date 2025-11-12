@@ -248,10 +248,10 @@ export default function Paranaense() {
                       <p><span className="font-semibold">Data:</span> 26 de Novembro de 2025 - Quarta-feira</p>
               </div>
                     <div className="flex items-center">
-                      <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 mr-3 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <p><span className="font-semibold">Horário de Chegada dos Formandos:</span> 17h30</p>
+                      <p><span className="font-bold text-yellow-400">Horário de Chegada dos Formandos:</span> <span className="font-bold text-yellow-400">18h30</span></p>
               </div>
                     <div className="flex items-center">
                       <svg className="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -740,7 +740,35 @@ export default function Paranaense() {
             <h2 className="text-3xl font-bold text-center mb-12">Informações Importantes</h2>
             
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Card 1: Política para Crianças */}
+              {/* Card 1: Ingressos */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center p-2">
+                    <img src="/ticketsicon.svg" alt="Ingressos" className="w-full h-full" />
+                  </div>
+                  <h3 className="text-xl font-bold">Ingressos</h3>
+                </div>
+                <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
+                  <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
+                    <p className="font-semibold text-white">Missa:</p>
+                    <p>Não é necessário ingresso.</p>
+                  </div>
+                  <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-2">
+                    <p className="font-semibold text-white">Ingresso da Colação</p>
+                    <p>Formato digital.</p>
+                    <p>Será enviado via e-mail para os responsáveis pelo contrato até o dia <span className="font-semibold text-white">18 de novembro</span>.</p>
+                  </div>
+                  <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-2">
+                    <p className="font-semibold text-white">Ingresso do Baile</p>
+                    <p>Formato físico.</p>
+                    <p>Retirada de <span className="font-semibold text-white">17 a 29 de novembro</span>, de segunda a sexta das <span className="font-semibold text-white">11h às 18h</span> e sábado das <span className="font-semibold text-white">09h às 13h</span>.</p>
+                    <p>Endereço: <span className="font-semibold text-white">Rua Acyr Santos, 92 - Vila Izabel</span>.</p>
+                    <p>Não haverá retirada de ingressos nos dias <span className="font-semibold text-white">24, 25 e 26 de novembro</span>.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 2: Política para Crianças */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center p-2">
@@ -771,7 +799,7 @@ export default function Paranaense() {
         </div>
           </div>
 
-              {/* Card 2: Política de Rolha */}
+              {/* Card 3: Política de Rolha */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center p-2">
@@ -815,10 +843,69 @@ export default function Paranaense() {
                       <span>Proibido consumo de álcool para menores de 18 anos. Maiores assinarão termo de responsabilidade.</span>
           </p>
         </div>
+                  <div className="bg-slate-700/20 backdrop-blur-md rounded-lg p-3 border border-slate-600/30">
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      Será disponibilizado um voucher por formando para apresentação das rolhas na recepção do baile. O voucher será entregue junto com os ingressos do evento na Agência Multifly.
+                    </p>
+                  </div>
+                  <div className="bg-slate-700/20 backdrop-blur-md rounded-lg p-3 border border-slate-600/30">
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      A bebida deve ser apresentada pelos responsáveis do formando na entrada do baile juntamente com o voucher.
+                    </p>
+                  </div>
             </div>
           </div>
 
-              {/* Card 3: Detalhes da Fotografia */}
+              {/* Card 4: Alimentação */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M10 18h4" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold">Alimentação</h3>
+                </div>
+                <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
+                  <p>O evento será <span className="font-semibold text-white">100% Open Food</span>, com:</p>
+                  <div className="space-y-3">
+                    <p className="font-semibold text-white">Logística da Alimentação</p>
+                    <div className="flex items-start gap-2">
+                      <span className="text-yellow-400">•</span>
+                      <span>Mesa de Antepastos (20h00 - 00h00)</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-yellow-400">•</span>
+                      <span>Sobremesas (20h00 - 02h00)</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-yellow-400">•</span>
+                      <span>Ilhas Gastronômicas (20h00 - 02h00)</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-yellow-400">•</span>
+                      <span>Lanche da Madrugada (02h00 - 04h00)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 5: Valsa */}
+              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold">Valsa</h3>
+                </div>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  Aproximadamente às <span className="font-semibold text-white">23h00</span>. O formando poderá escolher até <span className="font-semibold text-white">duas pessoas</span> para dançar a valsa, que será dividida por turma. Músicas serão definidas pela comissão de formatura.
+                </p>
+              </div>
+
+              {/* Card 6: Detalhes da Fotografia */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
@@ -851,76 +938,78 @@ export default function Paranaense() {
                       <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
-                      <span>Pulseira LED será fornecida e deve ser mantida no pulso durante todo o evento.</span>
+                      <span>Pulseira LED para o formando será fornecida e deve ser mantida no pulso durante todo o evento.</span>
           </p>
         </div>
-                </div>
-                </div>
+              </div>
+            </div>
 
               {/* Card 4: Itens Proibidos */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
-                    </svg>
-                </div>
-                  <h3 className="text-xl font-bold">Itens Proibidos</h3>
-              </div>
-                
-        <div className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-red-400 mb-3">Não será permitido:</h4>
-                    <ul className="space-y-2 text-slate-300 text-sm">
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Balões, infláveis, faixas, totens</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Buzinas, apitos, emissores sonoros</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Sky paper, sinalizadores, fogos</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Objetos cortantes ou ilícitos</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Câmeras semi/profissionais</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Fumantes, vaporizadores</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Pulseiras com fluído neon</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Aerossóis, líquidos, vidros</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span>Alimentos/bebidas como presentes</span>
-                      </li>
-                    </ul>
-          </div>
-                  
-                  <div className="bg-green-900/20 backdrop-blur-md rounded-lg p-3 border border-green-500/30">
-                    <p className="text-green-400 text-sm flex items-start gap-2">
-                      <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              <div className="md:col-span-2 flex justify-center">
+                <div className="w-full max-w-2xl bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
                       </svg>
-                      <span><strong>Permitido:</strong> Buquês (sem barulho ou papel picado)</span>
-            </p>
-          </div>
-          </div>
-        </div>
+                    </div>
+                    <h3 className="text-xl font-bold">Itens Proibidos</h3>
+                  </div>
+                  
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-semibold text-red-400 mb-3">Não será permitido:</h4>
+                      <ul className="space-y-2 text-slate-300 text-sm">
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Balões, infláveis, faixas, totens</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Buzinas, apitos, emissores sonoros</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Sky paper, sinalizadores, fogos</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Objetos cortantes ou ilícitos</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Câmeras semi/profissionais</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Fumantes, vaporizadores</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Pulseiras com fluído neon</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Aerossóis, líquidos, vidros</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-400 mt-1">•</span>
+                          <span>Alimentos/bebidas como presentes</span>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-green-900/20 backdrop-blur-md rounded-lg p-3 border border-green-500/30">
+                      <p className="text-green-400 text-sm flex items-start gap-2">
+                        <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span><strong>Permitido:</strong> Buquês (sem barulho ou papel picado)</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           </div>
@@ -954,7 +1043,7 @@ export default function Paranaense() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold mb-3">Fotografia</h3>
-                  <p className="text-slate-300 text-sm">Equipe profissional e book digital incluído (120 dias)</p>
+                  <p className="text-slate-300 text-sm">Equipe profissional e book digital incluído (120 dias após o baile)</p>
                 </div>
               </div>
 
@@ -980,30 +1069,6 @@ export default function Paranaense() {
                 </div>
               </div>
             </div>
-          </div>
-          </div>
-
-          {/* Informações Adicionais */}
-          <div id="info-adicionais" className={`w-full mt-24 transition-all duration-1000 ${visibleSections.has('info-adicionais') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'}`} style={{ background: 'radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.2) 0%, rgba(30, 58, 138, 0.08) 15%, rgba(30, 58, 138, 0.03) 25%, rgba(30, 58, 138, 0.01) 35%, transparent 45%)' }}>
-            <div className="max-w-6xl mx-auto pt-20 pb-20">
-            <h2 className="text-3xl font-bold text-center mb-12">Informações Adicionais</h2>
-            
-            <div className="grid md:grid-cols-1 gap-6 justify-items-center">
-              {/* Card 1: Valsa */}
-              <div className="w-full max-w-xl bg-slate-800/40 backdrop-blur-lg rounded-xl p-6 border border-slate-700/50 shadow-xl hover:scale-105 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold">Valsa</h3>
-                </div>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Aproximadamente às <span className="font-semibold text-white">23h00</span>. As valsas serão divididas por turma. Músicas serão definidas pela comissão de formatura.
-            </p>
-          </div>
-        </div>
           </div>
           </div>
 
@@ -1052,24 +1117,6 @@ export default function Paranaense() {
         </div>
               </div>
 
-              {/* Aviso 3: Entrega de Convites */}
-              <div className="bg-blue-900/20 backdrop-blur-lg rounded-xl p-6 border border-blue-500/50 shadow-xl">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-blue-400 mb-3">Entrega de Convites</h3>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      Todos os ingressos serão <span className="font-semibold text-white">entregues antecipadamente</span>, conforme o calendário a ser divulgado, não havendo nenhuma forma de retirá-los no momento do baile. É <span className="font-semibold text-white">imprescindível a apresentação do convite</span> para entrada em ambos os eventos.
-            </p>
-          </div>
-        </div>
-              </div>
             </div>
           </div>
           </div>
@@ -1541,33 +1588,6 @@ export default function Paranaense() {
                 )}
           </div>
 
-              {/* FAQ 10 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 10 ? null : 10)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quem precisa apresentar convite?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 10 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 10 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        <span className="font-semibold text-white">Todos, formandos e convidados.</span> É imprescindível a apresentação do convite. Em caso de perda ou esquecimento do ingresso, não será permitida a entrada no evento.
-                      </p>
-              </div>
-            </div>
-                )}
-              </div>
-
               {/* FAQ 11 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
                 <button 
@@ -1690,33 +1710,6 @@ export default function Paranaense() {
                 )}
           </div>
 
-              {/* FAQ 15 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 15 ? null : 15)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Com quanto tempo de antecedência devo chegar?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 15 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 15 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Formandos e convidados podem chegar a partir das <span className="font-semibold text-white">20h00</span> para o circuito fotográfico.
-                      </p>
-              </div>
-            </div>
-                )}
-              </div>
-
               {/* FAQ 16 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
                 <button 
@@ -1770,200 +1763,17 @@ export default function Paranaense() {
                 </button>
                 {openFaq === 17 && (
                   <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Na chegada e durante o evento, nos estúdios e pontos de fotos determinados pela organização. Após o protocolo, os estúdios ficarão abertos até às <span className="font-semibold text-white">01h00</span>.
-            </p>
-          </div>
+                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                       <p className="text-slate-300 text-sm leading-relaxed">
+                         <span className="font-semibold text-white">Colação:</span> os estúdios ficarão à disposição para fotos até às <span className="font-semibold text-white">18h50</span> e após o término da cerimônia.
+                       </p>
+                       <p className="text-slate-300 text-sm leading-relaxed">
+                         <span className="font-semibold text-white">Baile:</span> na chegada e durante o evento, nos estúdios e pontos de fotos determinados pela organização. Após o protocolo, os estúdios ficarão abertos até <span className="font-semibold text-white">01h00</span>.
+                       </p>
+                     </div>
             </div>
                 )}
           </div>
-
-              {/* FAQ 18 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 18 ? null : 18)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Como será o serviço de alimentação do baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 18 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 18 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        O evento será <span className="font-semibold text-white">100% Open Food</span>, com:
-                      </p>
-                      <div className="space-y-3 text-sm text-slate-300">
-                        <p className="font-semibold text-white">Logística da Alimentação</p>
-                        <div className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Mesa de Antepastos (20h00 - 00h00)</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Sobremesas (20h00 - 02h00)</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Ilhas Gastronômicas (20h00 - 02h00)</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-yellow-400">•</span>
-                          <span>Lanche da Madrugada (02h00 - 04h00)</span>
-                        </div>
-                      </div>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 19 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 19 ? null : 19)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Para o baile, haverá rolha?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 19 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 19 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Sim, serão permitidas <span className="font-semibold text-white">4 rolhas somente destilados e vinhos</span>. As garrafas podem ser de no máximo, 1 (um) litro. A logística da Rolha será divulgada em até 30 dias antecedentes ao evento.
-                      </p>
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        O serviço de copos será padrão, não havendo distinção para cada tipo de bebida da rolha. Não será necessário levar saca-rolhas, pois os garçons estarão equipados para esse serviço.
-            </p>
-          </div>
-            </div>
-                )}
-              </div>
-
-              {/* FAQ 20 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 20 ? null : 20)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Quais tipos de bebidas posso levar na rolha?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 20 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 20 && (
-                  <div className="px-6 pb-6 space-y-3 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-4">
-                      <div>
-                        <h4 className="font-semibold text-green-400 mb-2">Permitido:</h4>
-                        <p className="text-slate-300 text-sm">Whisky, gin, vodka, vinho e espumante.</p>
-                        <p className="text-slate-400 text-sm mt-2 italic">Caso haja a necessidade de gelar as bebidas, os responsáveis poderão efetuar a compra de baldes de gelo para uso na mesa.</p>
-            </div>
-                      <div>
-                        <h4 className="font-semibold text-red-400 mb-2">Proibido levar:</h4>
-                        <p className="text-slate-300 text-sm">Cerveja, energéticos, xaropes e especiarias para o gin.</p>
-          </div>
-                      <div>
-                        <h4 className="font-semibold text-blue-400 mb-2">Disponível para compra:</h4>
-                        <p className="text-slate-300 text-sm">Drinks Clássicos e Autorais, Cerveja, Energéticos, Espumantes, Balde de Gelo, entre outros.</p>
-                        <p className="text-slate-400 text-sm mt-2 italic">O cardápio completo de bebidas será divulgado em até 30 dias antecedentes ao evento.</p>
-            </div>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed">
-                          <span className="font-bold">Importante:</span> É proibido o consumo e a compra de bebidas alcoólicas para menores de 18 anos. Maiores serão identificados pela nossa equipe e precisarão assinar um Termo de Responsabilidade.
-            </p>
-          </div>
-        </div>
-          </div>
-                )}
-        </div>
-
-              {/* FAQ 21 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button
-                  onClick={() => setOpenFaq(openFaq === 21 ? null : 21)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">O que não posso levar ao baile?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 21 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 21 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Não será permitido levar alimentos ou bebidas para presentear os formandos no dia do baile, como caixas com chocolates ou balões, por questões de segurança.
-                      </p>
-                      <div className="bg-green-900/20 backdrop-blur-md rounded-lg p-3 border border-green-500/30">
-                        <p className="text-green-400 text-sm">
-                          <span className="font-bold">Permitido:</span> Buquê (sem barulho ou papel picado)
-                        </p>
-            </div>
-                      <div className="bg-red-900/20 backdrop-blur-md rounded-lg p-3 border border-red-500/30">
-                        <p className="text-red-400 text-sm leading-relaxed mb-2">
-                          <span className="font-bold">Itens proibidos:</span>
-                        </p>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                          Balões, infláveis e similares, faixas, totens, buzinas, apitos ou outros emissores sonoros, sky paper, sinalizadores, fogos de qualquer natureza, objetos cortantes ou ilícitos, fumos, vaporizadores ou afins, pulseiras com fluído neon, câmeras digitais, semiprofissionais e profissionais, aerossóis, líquidos, vidros, entre outros.
-            </p>
-          </div>
-            </div>
-                  </div>
-                )}
-              </div>
-
-              {/* FAQ 22 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button 
-                  onClick={() => setOpenFaq(openFaq === 22 ? null : 22)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Qual o horário da valsa?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 22 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 22 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        Aproximadamente às <span className="font-semibold text-white">23h00</span>, formandos e formandas podem escolher uma pessoa para dançar a valsa. A música será única para todos os formandos e definida pela comissão de formatura.
-            </p>
-          </div>
-            </div>
-                )}
-              </div>
 
               {/* FAQ 23 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
@@ -1985,7 +1795,7 @@ export default function Paranaense() {
                   <div className="px-6 pb-6 space-y-3 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
                       <p className="text-slate-300 text-sm leading-relaxed">
-                        As famílias estão cientes de que é de sua total responsabilidade dirigir-se aos locais de captação de imagens disponibilizados durante o evento. Os estúdios fotográficos estarão disponíveis das <span className="font-semibold text-white">20h00 às 01h00</span>.
+                        As famílias estão cientes de que é de sua total responsabilidade dirigir-se aos locais de captação de imagens disponibilizados durante o evento.
                       </p>
                       <div className="bg-yellow-900/20 backdrop-blur-md rounded-lg p-3 border border-yellow-500/30 space-y-2">
                         <p className="text-yellow-400 text-sm">
@@ -2003,33 +1813,6 @@ export default function Paranaense() {
                 </div>
                 )}
                 </div>
-
-              {/* FAQ 24 */}
-              <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
-                <button
-                  onClick={() => setOpenFaq(openFaq === 24 ? null : 24)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-700/30 transition-all"
-                >
-                  <span className="font-semibold text-lg">Qual a atração do evento?</span>
-                  <svg 
-                    className={`w-6 h-6 text-yellow-400 transform transition-transform duration-300 ${openFaq === 24 ? 'rotate-180' : ''}`}
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === 24 && (
-                  <div className="px-6 pb-6 animate-fadeIn">
-                    <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30">
-                      <p className="text-slate-300 text-sm leading-relaxed">
-                        As atrações serão definidas pela <span className="font-semibold text-white">comissão de formatura</span> junto com a equipe de produção musical da Multifly.
-              </p>
-            </div>
-          </div>
-                )}
-        </div>
 
               {/* FAQ 25 */}
               <div className="bg-slate-800/40 backdrop-blur-lg rounded-xl border border-slate-700/50 shadow-xl overflow-hidden">
@@ -2104,6 +1887,12 @@ export default function Paranaense() {
                 {openFaq === 27 && (
                   <div className="px-6 pb-6 animate-fadeIn">
                     <div className="bg-slate-700/30 backdrop-blur-md rounded-lg p-4 border border-slate-600/30 space-y-3">
+                      <p className="text-slate-300 text-sm leading-relaxed">
+                        O ingresso é digital, foi comercializado pela plataforma Sympla e deverá ser apresentado na portaria.
+                      </p>
+                      <p className="text-red-400 text-sm font-semibold leading-relaxed">
+                        A venda de ingressos para o evento foi encerrada.
+                      </p>
                       <p className="text-slate-300 text-sm leading-relaxed">
                         Não é permitida a entrada de rolhas (garrafas ou quaisquer tipos de bebidas) após às <span className="font-semibold text-white">23h59</span>, em hipótese alguma.
                       </p>
