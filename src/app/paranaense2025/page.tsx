@@ -560,7 +560,7 @@ export default function Paranaense() {
                     </svg>
                   </div>
                   <p className="text-slate-300 text-lg">
-                    Ensaio para a Colação de Grau dia 01 de Dezembro no Colégio
+                    Ensaio para a Colação de Grau dia 02 de Dezembro no Colégio às 09h00
                   </p>
                 </div>
               </div>
